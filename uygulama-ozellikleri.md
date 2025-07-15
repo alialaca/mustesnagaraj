@@ -62,6 +62,7 @@ Müstesna Garaj vintage, 2. el ve tasarım satış etkinlikleri organize eden bi
 - [x] events.json dosyası hazırla
 - [x] Sayfaları gerçek verilerle entegre et
 - [x] Stock görseller ekle
+- [x] Satışçı başvuru sayfası/formu oluştur
 
 ### 🔄 Devam Eden Görevler
 
