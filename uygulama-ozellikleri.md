@@ -48,3 +48,40 @@ Müstesna Garaj vintage, 2. el ve tasarım satış etkinlikleri organize eden bi
 - İletişim formu
 - Satışçı başvuru formu
 - Geçmiş etkinlikler arşivi
+
+## Geliştirme Todo Listesi
+
+### ✅ Tamamlanan Görevler
+- [x] Git repository oluştur
+- [x] İlk commit yap
+- [x] Nuxt3 projesi oluştur
+- [x] .gitignore dosyası hazırla
+- [x] package.json güncelle (Node.js v22, pnpm)
+
+### 🔄 Devam Eden Görevler
+- [ ] Tailwind CSS kurulumu
+- [ ] Temel proje yapısı oluştur
+- [ ] events.json dosyası hazırla
+- [ ] Layout ve component'ler oluştur
+
+### 📋 Bekleyen Görevler
+#### Sayfa Geliştirme
+- [ ] Ana sayfa (Hero section, yaklaşan etkinlikler)
+- [ ] Etkinlikler sayfası (listeleme, filtreleme)
+- [ ] Etkinlik detay sayfası
+- [ ] Hakkımızda sayfası
+- [ ] İletişim sayfası
+- [ ] Satışçı başvuru sayfası/formu
+
+#### Fonksiyonellik
+- [ ] Etkinlik listeleme ve filtreleme sistemi
+- [ ] Responsive tasarım implementasyonu
+- [ ] SEO optimizasyonu (meta tagları, sitemap)
+- [ ] Performans optimizasyonu (lazy loading, image optimization)
+- [ ] Form işlemleri (iletişim, başvuru)
+
+#### Test ve Deployment
+- [ ] Test yazımı
+- [ ] Static site generation test
+- [ ] Production build test
+- [ ] Deployment hazırlığı
