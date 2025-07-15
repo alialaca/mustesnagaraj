@@ -2,194 +2,194 @@
   "events": [
     {
       "id": 1,
-      "title": "Vintage Pazarı",
-      "description": "Vintage giyim ve aksesuarların buluştuğu nostaljik bir satış etkinliği. Kaliteli 2. el parçalar ve koleksiyon ürünleri.",
-      "date": "2025-08-15T10:00:00",
-      "endDate": "2025-08-15T18:00:00",
+      "title": "Vintage Giysi Pazarı",
+      "description": "Vintage giysi ve aksesuarların buluştuğu nostaljik bir satış etkinliği. 70's, 80's, 90's dönemi ürünleri.",
+      "date": "2024-11-30T12:00:00",
+      "endDate": "2024-11-30T20:00:00",
       "location": {
-        "name": "Moda Sahil",
-        "address": "Moda Caddesi No:12, Kadıköy/İstanbul",
+        "name": "Kıraathane",
+        "address": "Kıraathane Mekanı, İstanbul",
         "coordinates": {
-          "lat": 40.9876,
-          "lng": 29.0234
+          "lat": 41.0082,
+          "lng": 28.9784
         }
       },
       "image": "/images/vintage-market.jpg",
-      "status": "upcoming",
-      "applicationOpen": true,
-      "totalTables": 50,
-      "availableTables": 12,
-      "tablePrice": 350,
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
         "Nostaljik müzik eşliğinde",
-        "Ücretsiz çay-kahve ikramı",
-        "Oto park imkanı",
-        "Fotoğraf köşesi"
+        "Vintage giyim ve aksesuarlar",
+        "Retro atmosfer",
+        "Özel koleksiyon parçaları"
       ],
       "categories": ["vintage", "giyim", "aksesuar"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "vintage@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     },
     {
       "id": 2,
-      "title": "Tasarım Festivali",
-      "description": "El yapımı tasarım ürünleri ve sanat eserlerinin sergilendiği yaratıcı bir etkinlik. Genç tasarımcılar ve sanatçılar için.",
-      "date": "2025-08-22T11:00:00",
-      "endDate": "2025-08-22T19:00:00",
+      "title": "Vintage Pazarı - Kırkmerdiven",
+      "description": "Vintage giyim ve aksesuarların buluştuğu pazarda benzersiz parçaları keşfedin. Kırkmerdiven'de özel bir etkinlik.",
+      "date": "2024-12-28T12:00:00",
+      "endDate": "2024-12-28T20:00:00",
       "location": {
-        "name": "Galata Tasarım Merkezi",
-        "address": "Galata Kulesi Sok. No:8, Beyoğlu/İstanbul",
+        "name": "Kırkmerdiven",
+        "address": "Kırkmerdiven Mekanı, İstanbul",
         "coordinates": {
-          "lat": 41.0256,
+          "lat": 41.0255,
           "lng": 28.9744
         }
       },
       "image": "/images/design-festival.jpg",
-      "status": "upcoming",
-      "applicationOpen": true,
-      "totalTables": 30,
-      "availableTables": 8,
-      "tablePrice": 400,
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
-        "Tasarımcı workshopları",
-        "Canlı müzik performansı",
-        "Tasarım yarışması",
-        "Networking alanı"
+        "Vintage giyim koleksiyonu",
+        "Retro aksesuarlar",
+        "Nostaljik atmosfer",
+        "Özel vintage parçalar"
       ],
-      "categories": ["tasarım", "el sanatları", "sanat"],
+      "categories": ["vintage", "giyim", "aksesuar"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "tasarim@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     },
     {
       "id": 3,
-      "title": "El Sanatları Fuarı",
-      "description": "Geleneksel ve modern el sanatlarının bir araya geldiği büyük fuar. Ustalar ve hobiseverler için.",
-      "date": "2025-08-29T09:00:00",
-      "endDate": "2025-08-29T17:00:00",
+      "title": "Vintage Pazarı - Kırkmerdiven",
+      "description": "Vintage severlerin buluşma noktası. Kırkmerdiven'de düzenlenen özel vintage pazarı etkinliği.",
+      "date": "2025-05-03T12:00:00",
+      "endDate": "2025-05-03T20:00:00",
       "location": {
-        "name": "Barbaros Kültür Merkezi",
-        "address": "Barbaros Blv. No:156, Beşiktaş/İstanbul",
+        "name": "Kırkmerdiven",
+        "address": "Kırkmerdiven Mekanı, İstanbul",
         "coordinates": {
-          "lat": 41.0469,
-          "lng": 29.0072
+          "lat": 41.0255,
+          "lng": 28.9744
         }
       },
       "image": "/images/handicrafts-fair.jpg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": true,
-      "totalTables": 80,
-      "availableTables": 25,
-      "tablePrice": 300,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
-        "El sanatları gösterileri",
-        "Çocuk atölyeleri",
-        "Geleneksel lezzetler",
-        "Usta-çırak buluşması"
+        "Vintage koleksiyonu",
+        "Retro atmosfer",
+        "Özel parçalar",
+        "Nostaljik deneyim"
       ],
-      "categories": ["el sanatları", "geleneksel", "atölye"],
+      "categories": ["vintage", "giyim", "aksesuar"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "elsanatlari@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     },
     {
       "id": 4,
-      "title": "Antika Pazarı",
-      "description": "Tarihi eşyalar ve koleksiyon ürünlerinin satış etkinliği. Antika severler ve koleksiyoncular için özel.",
-      "date": "2025-07-10T10:00:00",
-      "endDate": "2025-07-10T18:00:00",
+      "title": "Yerel Tasarımcılar - Seramik, Giyim, Takı & Aksesuar",
+      "description": "Yerel tasarımcıların el emeği ürünlerinin sergilendiği özel etkinlik. Seramik, giyim, takı ve aksesuar kategorilerinde.",
+      "date": "2024-07-06T11:00:00",
+      "endDate": "2024-07-06T21:00:00",
       "location": {
-        "name": "Sultanahmet Meydanı",
-        "address": "Sultanahmet Meydanı, Fatih/İstanbul",
+        "name": "Barbaros Mahallesi",
+        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35330 Konak/İzmir",
         "coordinates": {
-          "lat": 41.0058,
-          "lng": 28.9784
+          "lat": 38.4337,
+          "lng": 27.1444
         }
       },
       "image": "/images/antique-market.jpg",
       "status": "completed",
       "applicationOpen": false,
-      "totalTables": 40,
-      "availableTables": 0,
-      "tablePrice": 450,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
-        "Antika değerlendirmesi",
-        "Eksper eşliğinde",
-        "Tarihi atmosfer",
-        "Koleksiyoncu buluşması"
+        "Yerel tasarımcılar",
+        "El yapımı seramik",
+        "Özgün giyim tasarımları",
+        "Takı ve aksesuar atölyeleri"
       ],
-      "categories": ["antika", "koleksiyon", "tarihi"],
+      "categories": ["tasarım", "seramik", "giyim", "takı"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "antika@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     },
     {
       "id": 5,
-      "title": "Kitap ve Plak Pazarı",
-      "description": "Eski kitaplar, plaklar ve müzik koleksiyonlarının satış etkinliği. Okuyucular ve müzik severler için.",
-      "date": "2025-06-28T10:00:00",
-      "endDate": "2025-06-28T17:00:00",
+      "title": "Kırk Merdiven - 2. El ve Vintage, Depo Satışı",
+      "description": "Kırk Merdiven'de düzenlenen 2. el ve vintage ürünlerin depo satışı etkinliği. Uygun fiyatlı vintage parçalar.",
+      "date": "2024-07-12T15:00:00",
+      "endDate": "2024-07-12T21:00:00",
       "location": {
-        "name": "Beyoğlu Kitap Pazarı",
-        "address": "İstiklal Caddesi, Beyoğlu/İstanbul",
+        "name": "Kırkmerdiven",
+        "address": "Karaköy, Target Rois Mh. 308. Sk. No:4/6A, 34425 Konak/İzmir",
         "coordinates": {
-          "lat": 41.0369,
-          "lng": 28.9756
+          "lat": 38.4337,
+          "lng": 27.1444
         }
       },
       "image": "/images/book-record-market.jpg",
       "status": "completed",
       "applicationOpen": false,
-      "totalTables": 60,
-      "availableTables": 0,
-      "tablePrice": 250,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
-        "Kitap imza günü",
-        "Plak dinleme köşesi",
-        "Yazar buluşmaları",
-        "Müzik performansları"
+        "Depo satış fiyatları",
+        "2. el vintage parçalar",
+        "Uygun fiyatlı ürünler",
+        "Geniş ürün yelpazesi"
       ],
-      "categories": ["kitap", "plak", "müzik"],
+      "categories": ["vintage", "2. el", "depo satış"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "kitap@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     },
     {
       "id": 6,
-      "title": "Sonbahar Vintage Festivali",
-      "description": "Sonbahar temasında düzenlenen büyük vintage festivali. Moda defilesi ve müzik eşliğinde.",
-      "date": "2025-09-15T12:00:00",
-      "endDate": "2025-09-15T20:00:00",
+      "title": "2. El ve Tasarım Festivali",
+      "description": "16-17 Ağustos tarihlerinde düzenlenen büyük 2. el ve tasarım festivali. Tarihi Havyargazi Fabrikası'nda.",
+      "date": "2024-08-16T14:00:00",
+      "endDate": "2024-08-17T23:00:00",
       "location": {
-        "name": "Emirgan Korusu",
-        "address": "Emirgan Korusu, Sarıyer/İstanbul",
+        "name": "Tarihi Havyargazi Fabrikası Kültür Merkezi",
+        "address": "Tarihi Havyargazi Fabrikası, Üsküdar Caddesi, Konak/İzmir",
         "coordinates": {
-          "lat": 41.1086,
-          "lng": 29.0553
+          "lat": 38.4337,
+          "lng": 27.1444
         }
       },
       "image": "/images/autumn-vintage.jpg",
       "status": "upcoming",
-      "applicationOpen": true,
-      "totalTables": 100,
-      "availableTables": 45,
-      "tablePrice": 500,
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
       "features": [
-        "Moda defilesi",
-        "Canlı müzik",
-        "Yemek standları",
-        "Doğa içinde etkinlik"
+        "2 günlük festival",
+        "Tarihi mekanda etkinlik",
+        "Tasarımcı ürünleri",
+        "Kültür ve sanat etkinlikleri"
       ],
-      "categories": ["vintage", "festival", "moda"],
+      "categories": ["festival", "2. el", "tasarım"],
       "organizer": {
         "name": "MüstesnaGaraj",
-        "contact": "festival@mustesnagaraj.com"
+        "contact": "info@mustesnagaraj.com"
       }
     }
   ]
