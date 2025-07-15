@@ -9,6 +9,8 @@ Müstesna Garaj vintage, 2. el ve tasarım satış etkinlikleri organize eden bi
 
 ### Teknik Özellikler
 - Static bir uygulama olacak (Nuxt3 ile generate)
+- Node.js v22 kullanılacak
+- pnpm paket yöneticisi
 - Nuxt3 ve Tailwind CSS kullanılacak
 - Responsive tasarım (mobil, tablet, desktop)
 - SEO optimize edilmiş (meta tagları, sitemap, structured data)
