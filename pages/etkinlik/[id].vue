@@ -41,7 +41,7 @@
               <p class="text-gray-500 text-sm">{{ event.location.address }}</p>
             </div>
           </div>
-          <div class="flex items-center">
+          <div v-if="event.tablePrice" class="flex items-center">
             <svg class="h-5 w-5 text-purple-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
             </svg>
@@ -53,7 +53,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-50 p-6 rounded-lg">
+      <div v-if="event.totalTables && event.availableTables !== undefined" class="bg-gray-50 p-6 rounded-lg">
         <h3 class="text-xl font-semibold mb-4">Masa Durumu</h3>
         <div class="space-y-3">
           <div class="flex justify-between">
@@ -106,7 +106,7 @@
     <!-- Başvuru Butonu -->
     <div class="text-center">
       <button 
-        v-if="event.applicationOpen && event.availableTables > 0"
+        v-if="event.applicationOpen && (event.availableTables === undefined || event.availableTables > 0)"
         class="bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
         @click="applyForEvent"
       >
@@ -115,7 +115,7 @@
       <div v-else-if="!event.applicationOpen" class="text-gray-500">
         Başvurular kapalı
       </div>
-      <div v-else class="text-red-500">
+      <div v-else-if="event.availableTables !== undefined && event.availableTables === 0" class="text-red-500">
         Müsait masa bulunmuyor
       </div>
     </div>

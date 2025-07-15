@@ -16,7 +16,7 @@
           <h4 class="font-medium">{{ selectedEvent.title }}</h4>
           <p class="text-gray-600">{{ formatEventDate(selectedEvent.date) }}</p>
           <p class="text-gray-600">{{ selectedEvent.location.name }}</p>
-          <p class="text-sm text-gray-500">Masa ücreti: {{ selectedEvent.tablePrice }} TL</p>
+          <p v-if="selectedEvent.tablePrice" class="text-sm text-gray-500">Masa ücreti: {{ selectedEvent.tablePrice }} TL</p>
         </div>
       </div>
     </div>
