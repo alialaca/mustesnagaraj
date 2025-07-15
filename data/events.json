@@ -1,0 +1,196 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Vintage Pazarı",
+      "description": "Vintage giyim ve aksesuarların buluştuğu nostaljik bir satış etkinliği. Kaliteli 2. el parçalar ve koleksiyon ürünleri.",
+      "date": "2025-08-15T10:00:00",
+      "endDate": "2025-08-15T18:00:00",
+      "location": {
+        "name": "Moda Sahil",
+        "address": "Moda Caddesi No:12, Kadıköy/İstanbul",
+        "coordinates": {
+          "lat": 40.9876,
+          "lng": 29.0234
+        }
+      },
+      "image": "/images/vintage-market.jpg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": 50,
+      "availableTables": 12,
+      "tablePrice": 350,
+      "features": [
+        "Nostaljik müzik eşliğinde",
+        "Ücretsiz çay-kahve ikramı",
+        "Oto park imkanı",
+        "Fotoğraf köşesi"
+      ],
+      "categories": ["vintage", "giyim", "aksesuar"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "vintage@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Tasarım Festivali",
+      "description": "El yapımı tasarım ürünleri ve sanat eserlerinin sergilendiği yaratıcı bir etkinlik. Genç tasarımcılar ve sanatçılar için.",
+      "date": "2025-08-22T11:00:00",
+      "endDate": "2025-08-22T19:00:00",
+      "location": {
+        "name": "Galata Tasarım Merkezi",
+        "address": "Galata Kulesi Sok. No:8, Beyoğlu/İstanbul",
+        "coordinates": {
+          "lat": 41.0256,
+          "lng": 28.9744
+        }
+      },
+      "image": "/images/design-festival.jpg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": 30,
+      "availableTables": 8,
+      "tablePrice": 400,
+      "features": [
+        "Tasarımcı workshopları",
+        "Canlı müzik performansı",
+        "Tasarım yarışması",
+        "Networking alanı"
+      ],
+      "categories": ["tasarım", "el sanatları", "sanat"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "tasarim@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 3,
+      "title": "El Sanatları Fuarı",
+      "description": "Geleneksel ve modern el sanatlarının bir araya geldiği büyük fuar. Ustalar ve hobiseverler için.",
+      "date": "2025-08-29T09:00:00",
+      "endDate": "2025-08-29T17:00:00",
+      "location": {
+        "name": "Barbaros Kültür Merkezi",
+        "address": "Barbaros Blv. No:156, Beşiktaş/İstanbul",
+        "coordinates": {
+          "lat": 41.0469,
+          "lng": 29.0072
+        }
+      },
+      "image": "/images/handicrafts-fair.jpg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": 80,
+      "availableTables": 25,
+      "tablePrice": 300,
+      "features": [
+        "El sanatları gösterileri",
+        "Çocuk atölyeleri",
+        "Geleneksel lezzetler",
+        "Usta-çırak buluşması"
+      ],
+      "categories": ["el sanatları", "geleneksel", "atölye"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "elsanatlari@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Antika Pazarı",
+      "description": "Tarihi eşyalar ve koleksiyon ürünlerinin satış etkinliği. Antika severler ve koleksiyoncular için özel.",
+      "date": "2025-07-10T10:00:00",
+      "endDate": "2025-07-10T18:00:00",
+      "location": {
+        "name": "Sultanahmet Meydanı",
+        "address": "Sultanahmet Meydanı, Fatih/İstanbul",
+        "coordinates": {
+          "lat": 41.0058,
+          "lng": 28.9784
+        }
+      },
+      "image": "/images/antique-market.jpg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": 40,
+      "availableTables": 0,
+      "tablePrice": 450,
+      "features": [
+        "Antika değerlendirmesi",
+        "Eksper eşliğinde",
+        "Tarihi atmosfer",
+        "Koleksiyoncu buluşması"
+      ],
+      "categories": ["antika", "koleksiyon", "tarihi"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "antika@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Kitap ve Plak Pazarı",
+      "description": "Eski kitaplar, plaklar ve müzik koleksiyonlarının satış etkinliği. Okuyucular ve müzik severler için.",
+      "date": "2025-06-28T10:00:00",
+      "endDate": "2025-06-28T17:00:00",
+      "location": {
+        "name": "Beyoğlu Kitap Pazarı",
+        "address": "İstiklal Caddesi, Beyoğlu/İstanbul",
+        "coordinates": {
+          "lat": 41.0369,
+          "lng": 28.9756
+        }
+      },
+      "image": "/images/book-record-market.jpg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": 60,
+      "availableTables": 0,
+      "tablePrice": 250,
+      "features": [
+        "Kitap imza günü",
+        "Plak dinleme köşesi",
+        "Yazar buluşmaları",
+        "Müzik performansları"
+      ],
+      "categories": ["kitap", "plak", "müzik"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "kitap@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Sonbahar Vintage Festivali",
+      "description": "Sonbahar temasında düzenlenen büyük vintage festivali. Moda defilesi ve müzik eşliğinde.",
+      "date": "2025-09-15T12:00:00",
+      "endDate": "2025-09-15T20:00:00",
+      "location": {
+        "name": "Emirgan Korusu",
+        "address": "Emirgan Korusu, Sarıyer/İstanbul",
+        "coordinates": {
+          "lat": 41.1086,
+          "lng": 29.0553
+        }
+      },
+      "image": "/images/autumn-vintage.jpg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": 100,
+      "availableTables": 45,
+      "tablePrice": 500,
+      "features": [
+        "Moda defilesi",
+        "Canlı müzik",
+        "Yemek standları",
+        "Doğa içinde etkinlik"
+      ],
+      "categories": ["vintage", "festival", "moda"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "festival@mustesnagaraj.com"
+      }
+    }
+  ]
+}
