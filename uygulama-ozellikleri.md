@@ -58,9 +58,9 @@ Müstesna Garaj vintage, 2. el ve tasarım satış etkinlikleri organize eden bi
 - [x] .gitignore dosyası hazırla
 - [x] package.json güncelle (Node.js v22, pnpm)
 - [x] Tailwind CSS kurulumu
+- [x] Temel proje yapısı oluştur
 
 ### 🔄 Devam Eden Görevler
-- [ ] Temel proje yapısı oluştur
 - [ ] events.json dosyası hazırla
 - [ ] Layout ve component'ler oluştur
 
