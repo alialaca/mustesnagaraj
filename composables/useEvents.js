@@ -30,8 +30,8 @@ export const useEvents = () => {
   }
 
   const getEventsByStatus = (status) => {
-    if (status === 'all') return events.value
-    return events.value.filter(event => event.status === status)
+    if (status === 'all') return events.value.slice().sort((a, b) => new Date(b.date) - new Date(a.date))
+    return events.value.filter(event => event.status === status).sort((a, b) => new Date(b.date) - new Date(a.date))
   }
 
   const formatEventDate = (dateString) => {
