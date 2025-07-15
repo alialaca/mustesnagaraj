@@ -59,10 +59,10 @@ Müstesna Garaj vintage, 2. el ve tasarım satış etkinlikleri organize eden bi
 - [x] package.json güncelle (Node.js v22, pnpm)
 - [x] Tailwind CSS kurulumu
 - [x] Temel proje yapısı oluştur
+- [x] events.json dosyası hazırla
+- [x] Sayfaları gerçek verilerle entegre et
 
 ### 🔄 Devam Eden Görevler
-- [ ] events.json dosyası hazırla
-- [ ] Layout ve component'ler oluştur
 
 ### 📋 Bekleyen Görevler
 #### Sayfa Geliştirme

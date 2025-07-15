@@ -25,8 +25,8 @@
               <img :src="event.image" :alt="event.title" class="w-full h-48 object-cover rounded-lg">
             </div>
             <h3 class="text-xl font-semibold mb-2">{{ event.title }}</h3>
-            <p class="text-gray-600 mb-2">{{ event.date }}</p>
-            <p class="text-gray-600 mb-4">{{ event.location }}</p>
+            <p class="text-gray-600 mb-2">{{ formatEventDateShort(event.date) }}</p>
+            <p class="text-gray-600 mb-4">{{ event.location.name }}</p>
             <NuxtLink :to="`/etkinlik/${event.id}`" class="text-purple-600 hover:text-purple-800 font-medium">
               Detayları Gör →
             </NuxtLink>
@@ -73,30 +73,8 @@
 </template>
 
 <script setup>
-// Geçici veri - sonradan events.json'dan gelecek
-const upcomingEvents = ref([
-  {
-    id: 1,
-    title: "Vintage Pazarı",
-    date: "15 Ağustos 2025",
-    location: "Kadıköy Moda",
-    image: "/images/placeholder-event.jpg"
-  },
-  {
-    id: 2,
-    title: "Tasarım Festivali",
-    date: "22 Ağustos 2025",
-    location: "Beyoğlu Galata",
-    image: "/images/placeholder-event.jpg"
-  },
-  {
-    id: 3,
-    title: "El Sanatları Fuarı",
-    date: "29 Ağustos 2025",
-    location: "Beşiktaş Barbaros",
-    image: "/images/placeholder-event.jpg"
-  }
-])
+const { getUpcomingEvents, formatEventDateShort } = useEvents()
+const upcomingEvents = computed(() => getUpcomingEvents().slice(0, 3))
 
 // SEO
 useHead({

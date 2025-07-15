@@ -22,8 +22,8 @@
               {{ statusText(event.status) }}
             </span>
           </div>
-          <p class="text-gray-600 mb-2">{{ event.date }}</p>
-          <p class="text-gray-600 mb-4">{{ event.location }}</p>
+          <p class="text-gray-600 mb-2">{{ formatEventDateShort(event.date) }}</p>
+          <p class="text-gray-600 mb-4">{{ event.location.name }}</p>
           <p class="text-gray-700 mb-4">{{ event.description }}</p>
           <NuxtLink :to="`/etkinlik/${event.id}`" class="text-purple-600 hover:text-purple-800 font-medium">
             Detayları Gör →
@@ -40,43 +40,10 @@
 
 <script setup>
 const statusFilter = ref('all')
-
-// Geçici veri - sonradan events.json'dan gelecek
-const events = ref([
-  {
-    id: 1,
-    title: "Vintage Pazarı",
-    date: "15 Ağustos 2025",
-    location: "Kadıköy Moda",
-    description: "Vintage giyim ve aksesuar satış etkinliği",
-    image: "/images/placeholder-event.jpg",
-    status: "upcoming"
-  },
-  {
-    id: 2,
-    title: "Tasarım Festivali",
-    date: "22 Ağustos 2025", 
-    location: "Beyoğlu Galata",
-    description: "El yapımı tasarım ürünleri fuarı",
-    image: "/images/placeholder-event.jpg",
-    status: "upcoming"
-  },
-  {
-    id: 3,
-    title: "Antika Pazarı",
-    date: "10 Temmuz 2025",
-    location: "Sultanahmet",
-    description: "Antika eşya ve koleksiyon satış etkinliği",
-    image: "/images/placeholder-event.jpg",
-    status: "completed"
-  }
-])
+const { events, getEventsByStatus, formatEventDateShort } = useEvents()
 
 const filteredEvents = computed(() => {
-  if (statusFilter.value === 'all') {
-    return events.value
-  }
-  return events.value.filter(event => event.status === statusFilter.value)
+  return getEventsByStatus(statusFilter.value)
 })
 
 const statusClass = (status) => {
