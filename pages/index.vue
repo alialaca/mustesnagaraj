@@ -3,7 +3,7 @@
     <!-- Hero Section -->
     <section class="relative h-screen overflow-hidden">
       <div class="absolute inset-0">
-        <img src="/images/hero-vintage-market.jpg" alt="Vintage Market" class="w-full h-full object-cover">
+        <img src="/images/an-openair-clothing-market.jpg" alt="Vintage Market" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       <div class="relative z-10 flex items-center justify-center h-full text-white text-center">
