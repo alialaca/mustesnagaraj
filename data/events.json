@@ -2,115 +2,19 @@
   "events": [
     {
       "id": 1,
-      "title": "Vintage Giysi Pazarı",
-      "description": "Vintage giysi ve aksesuarların buluştuğu nostaljik bir satış etkinliği. 70's, 80's, 90's dönemi ürünleri.",
-      "date": "2024-11-30T12:00:00",
-      "endDate": "2024-11-30T20:00:00",
-      "location": {
-        "name": "Kıraathane",
-        "address": "Kıraathane Mekanı, İstanbul",
-        "coordinates": {
-          "lat": 41.0082,
-          "lng": 28.9784
-        }
-      },
-      "image": "/images/vintage-market.jpg",
-      "status": "completed",
-      "applicationOpen": false,
-      "totalTables": null,
-      "availableTables": null,
-      "tablePrice": null,
-      "features": [
-        "Nostaljik müzik eşliğinde",
-        "Vintage giyim ve aksesuarlar",
-        "Retro atmosfer",
-        "Özel koleksiyon parçaları"
-      ],
-      "categories": ["vintage", "giyim", "aksesuar"],
-      "organizer": {
-        "name": "MüstesnaGaraj",
-        "contact": "info@mustesnagaraj.com"
-      }
-    },
-    {
-      "id": 2,
-      "title": "Vintage Pazarı - Kırkmerdiven",
-      "description": "Vintage giyim ve aksesuarların buluştuğu pazarda benzersiz parçaları keşfedin. Kırkmerdiven'de özel bir etkinlik.",
-      "date": "2024-12-28T12:00:00",
-      "endDate": "2024-12-28T20:00:00",
-      "location": {
-        "name": "Kırkmerdiven",
-        "address": "Kırkmerdiven Mekanı, İstanbul",
-        "coordinates": {
-          "lat": 41.0255,
-          "lng": 28.9744
-        }
-      },
-      "image": "/images/design-festival.jpg",
-      "status": "completed",
-      "applicationOpen": false,
-      "totalTables": null,
-      "availableTables": null,
-      "tablePrice": null,
-      "features": [
-        "Vintage giyim koleksiyonu",
-        "Retro aksesuarlar",
-        "Nostaljik atmosfer",
-        "Özel vintage parçalar"
-      ],
-      "categories": ["vintage", "giyim", "aksesuar"],
-      "organizer": {
-        "name": "MüstesnaGaraj",
-        "contact": "info@mustesnagaraj.com"
-      }
-    },
-    {
-      "id": 3,
-      "title": "Vintage Pazarı - Kırkmerdiven",
-      "description": "Vintage severlerin buluşma noktası. Kırkmerdiven'de düzenlenen özel vintage pazarı etkinliği.",
-      "date": "2025-05-03T12:00:00",
-      "endDate": "2025-05-03T20:00:00",
-      "location": {
-        "name": "Kırkmerdiven",
-        "address": "Kırkmerdiven Mekanı, İstanbul",
-        "coordinates": {
-          "lat": 41.0255,
-          "lng": 28.9744
-        }
-      },
-      "image": "/images/handicrafts-fair.jpg",
-      "status": "completed",
-      "applicationOpen": true,
-      "totalTables": null,
-      "availableTables": null,
-      "tablePrice": null,
-      "features": [
-        "Vintage koleksiyonu",
-        "Retro atmosfer",
-        "Özel parçalar",
-        "Nostaljik deneyim"
-      ],
-      "categories": ["vintage", "giyim", "aksesuar"],
-      "organizer": {
-        "name": "MüstesnaGaraj",
-        "contact": "info@mustesnagaraj.com"
-      }
-    },
-    {
-      "id": 4,
       "title": "Yerel Tasarımcılar - Seramik, Giyim, Takı & Aksesuar",
-      "description": "Yerel tasarımcıların el emeği ürünlerinin sergilendiği özel etkinlik. Seramik, giyim, takı ve aksesuar kategorilerinde.",
+      "description": "Yerel tasarımcıların birbirinden özgün tasarımlarını keşfetmek için Zoë Coffee’de buluşuyoruz. El yapımı takılar, seramikler, tekstil ürünleri, aksesuarlar ve çok daha fazlası seni bekliyor!\n\nHem alışveriş hem sohbet hem de güzel bir atmosfer için seni de aramızda görmeyi çok isteriz. \uD83C\uDF3F✨",
       "date": "2024-07-06T11:00:00",
       "endDate": "2024-07-06T21:00:00",
       "location": {
-        "name": "Barbaros Mahallesi",
-        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35330 Konak/İzmir",
+        "name": "Zoë Coffee",
+        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35390 Konak/İzmir",
         "coordinates": {
           "lat": 38.4337,
           "lng": 27.1444
         }
       },
-      "image": "/images/antique-market.jpg",
+      "image": "/images/zoe.jpg",
       "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
@@ -129,20 +33,20 @@
       }
     },
     {
-      "id": 5,
+      "id": 2,
       "title": "Kırk Merdiven - 2. El ve Vintage, Depo Satışı",
-      "description": "Kırk Merdiven'de düzenlenen 2. el ve vintage ürünlerin depo satışı etkinliği. Uygun fiyatlı vintage parçalar.",
+      "description": "İzmir’de ikinci el ve vintage severler için kaçırılmayacak bir Depo Satışı geliyor! \nFiyatlar sabit, ürünler sınırlı! \uD83E\uDDE5\uD83D\uDC56\uD83D\uDC5A\n\n\uD83D\uDCB8 100₺ | 150₺ | 200₺ | 250₺\nHer şey çok uygun fiyatlarla, dolabını yenilemek için harika bir fırsat!",
       "date": "2024-07-12T15:00:00",
       "endDate": "2024-07-12T21:00:00",
       "location": {
         "name": "Kırkmerdiven",
-        "address": "Karaköy, Target Rois Mh. 308. Sk. No:4/6A, 34425 Konak/İzmir",
+        "address": "Karataş, Turgut Reis Mah.\n305. Sk. No:59/A, 35280\nKonak / İzmir",
         "coordinates": {
           "lat": 38.4337,
           "lng": 27.1444
         }
       },
-      "image": "/images/book-record-market.jpg",
+      "image": "/images/kirkmerdiven.jpg",
       "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
@@ -152,7 +56,8 @@
         "Depo satış fiyatları",
         "2. el vintage parçalar",
         "Uygun fiyatlı ürünler",
-        "Geniş ürün yelpazesi"
+        "Geniş ürün yelpazesi",
+        "Canlı müzik performansı"
       ],
       "categories": ["vintage", "2. el", "depo satış"],
       "organizer": {
@@ -161,20 +66,20 @@
       }
     },
     {
-      "id": 6,
+      "id": 3,
       "title": "2. El ve Tasarım Festivali",
-      "description": "16-17 Ağustos tarihlerinde düzenlenen büyük 2. el ve tasarım festivali. Tarihi Havyargazi Fabrikası'nda.",
+      "description": "İzmir’in kalbinde, geçmişin ruhunu geleceğin dokunuşlarıyla buluşturan benzersiz bir festivaldeyiz! İkinci el modanın sürdürülebilir gücüyle, ilham verici tasarımcılar bir arada!\nGiysi, aksesuar, obje, sanat ve daha fazlası bu festivalde sizi bekliyor.\nDJ Performansları, sokak lezzetleri ve sıcak yaz akşamlarının eşsiz enerjisiyle dolu iki gün için takviminize not edin.",
       "date": "2025-08-16T14:00:00",
       "endDate": "2025-08-17T23:00:00",
       "location": {
-        "name": "Tarihi Havyargazi Fabrikası Kültür Merkezi",
-        "address": "Tarihi Havyargazi Fabrikası, Üsküdar Caddesi, Konak/İzmir",
+        "name": "Tarihi Havagazı Fabrikası Kültür Merkezi",
+        "address": "Umurbey, Liman Caddesi, Konak/İzmir",
         "coordinates": {
           "lat": 38.4337,
           "lng": 27.1444
         }
       },
-      "image": "/images/autumn-vintage.jpg",
+      "image": "/images/havagazi.jpg",
       "status": "upcoming",
       "applicationOpen": false,
       "totalTables": null,
@@ -184,9 +89,10 @@
         "2 günlük festival",
         "Tarihi mekanda etkinlik",
         "Tasarımcı ürünleri",
-        "Kültür ve sanat etkinlikleri"
+        "Kültür ve sanat etkinlikleri",
+        "Canlı DJ performansları"
       ],
-      "categories": ["festival", "2. el", "tasarım"],
+      "categories": ["festival", "2. el", "tasarım", "vintage", "stickjam"],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
