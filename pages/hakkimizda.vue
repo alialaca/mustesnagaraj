@@ -1,6 +1,20 @@
 <template>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-    <h1 class="text-3xl font-bold mb-8">Hakkımızda</h1>
+    <div class="text-center mb-12">
+      <div class="flex justify-center items-center mb-6">
+        <img 
+          :src="logoBlack" 
+          alt="MüstesnaGaraj Logo" 
+          class="h-20 w-auto mr-4"
+        >
+        <h1 class="text-4xl font-bold">
+          <span class="font-semibold">Müstesna</span><span class="font-light">Garaj</span>
+        </h1>
+      </div>
+      <p class="text-xl text-gray-600">
+        "Modaya değil, hikayeye yatırım"
+      </p>
+    </div>
     
     <div class="prose max-w-none">
       <div class="mb-8">
@@ -73,6 +87,8 @@
 </template>
 
 <script setup>
+import logoBlack from '~/assets/images/logo_black.png'
+
 // SEO
 useHead({
   title: 'Hakkımızda - MüstesnaGaraj',
