@@ -56,9 +56,6 @@
             >
               İletişim
             </NuxtLink>
-            <NuxtLink to="/satisci-basvuru" class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">
-              Satışçı Ol
-            </NuxtLink>
           </div>
           <div class="md:hidden">
             <button 
@@ -80,7 +77,6 @@
             <NuxtLink to="/etkinlikler" class="block px-3 py-2 text-gray-700 hover:text-gray-900">Etkinlikler</NuxtLink>
             <NuxtLink to="/hakkimizda" class="block px-3 py-2 text-gray-700 hover:text-gray-900">Hakkımızda</NuxtLink>
             <NuxtLink to="/iletisim" class="block px-3 py-2 text-gray-700 hover:text-gray-900">İletişim</NuxtLink>
-            <NuxtLink to="/satisci-basvuru" class="block px-3 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">Satışçı Ol</NuxtLink>
           </div>
         </div>
       </nav>

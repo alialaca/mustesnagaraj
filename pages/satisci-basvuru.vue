@@ -21,8 +21,23 @@
       </div>
     </div>
 
-    <!-- Başvuru Formu -->
-    <form @submit.prevent="submitApplication" class="space-y-6">
+    <!-- Geçici Bilgi Mesajı -->
+    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-center">
+      <h2 class="text-xl font-semibold text-yellow-800 mb-4">Başvuru Sistemi Geçici Olarak Kapalı</h2>
+      <p class="text-yellow-700 mb-4">
+        Şu anda başvuru işlemleri Google Forms üzerinden yapılmaktadır. 
+        Etkinliklere kayıt olmak için lütfen etkinlik sayfasından Google Forms linkini kullanın.
+      </p>
+      <NuxtLink 
+        to="/etkinlikler" 
+        class="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
+      >
+        Etkinlikleri Görüntüle
+      </NuxtLink>
+    </div>
+
+    <!-- Gizli Form (Gelecekte Kullanım İçin) -->
+    <form @submit.prevent="submitApplication" class="space-y-6 hidden">
       <!-- Etkinlik Seçimi -->
       <div v-if="!selectedEvent">
         <label class="block text-sm font-medium text-gray-700 mb-2">

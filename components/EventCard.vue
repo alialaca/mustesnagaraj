@@ -17,9 +17,20 @@
         <NuxtLink :to="`/etkinlik/${event.id}`" class="text-purple-600 hover:text-purple-800 font-medium">
           Detayları Gör →
         </NuxtLink>
-        <span v-if="event.availableSeats" class="text-sm text-gray-500">
-          {{ event.availableSeats }} masa müsait
-        </span>
+        <div class="flex items-center space-x-2">
+          <span v-if="event.availableSeats" class="text-sm text-gray-500">
+            {{ event.availableSeats }} masa müsait
+          </span>
+          <a 
+            v-if="event.googleFormUrl && event.status === 'upcoming' && event.applicationOpen"
+            :href="event.googleFormUrl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="bg-purple-600 text-white px-3 py-1 rounded text-sm hover:bg-purple-700 transition-colors"
+          >
+            Kayıt Ol
+          </a>
+        </div>
       </div>
     </div>
   </div>

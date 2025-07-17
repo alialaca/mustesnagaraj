@@ -105,18 +105,23 @@
 
     <!-- Başvuru Butonu -->
     <div class="text-center">
-      <button 
-        v-if="event.applicationOpen && (event.availableTables === undefined || event.availableTables > 0)"
-        class="bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
-        @click="applyForEvent"
+      <a 
+        v-if="event.googleFormUrl && event.applicationOpen && (event.availableTables === undefined || event.availableTables > 0)"
+        :href="event.googleFormUrl"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
       >
         Masa Başvurusu Yap
-      </button>
+      </a>
       <div v-else-if="!event.applicationOpen" class="text-gray-500">
         Başvurular kapalı
       </div>
       <div v-else-if="event.availableTables !== undefined && event.availableTables === 0" class="text-red-500">
         Müsait masa bulunmuyor
+      </div>
+      <div v-else-if="!event.googleFormUrl && event.applicationOpen" class="text-gray-500">
+        Başvuru formu hazırlanıyor
       </div>
     </div>
 
@@ -173,10 +178,6 @@ const statusText = computed(() => {
   }
 })
 
-const applyForEvent = () => {
-  // Başvuru formuna yönlendir
-  navigateTo('/satisci-basvuru?event=' + event.value.id)
-}
 
 // SEO
 useHead(() => ({
