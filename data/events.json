@@ -81,9 +81,9 @@
       },
       "image": "/images/havagazi.jpg",
       "status": "upcoming",
-      "applicationOpen": false,
+      "applicationOpen": true,
       "totalTables": null,
-      "availableTables": null,
+      "availableTables": 200,
       "tablePrice": null,
       "features": [
         "2 günlük festival",
