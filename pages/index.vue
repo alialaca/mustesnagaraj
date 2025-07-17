@@ -3,7 +3,17 @@
     <!-- Hero Section -->
     <section class="relative h-screen overflow-hidden">
       <div class="absolute inset-0">
-        <img src="/images/an-openair-clothing-market.jpg" alt="Vintage Market" class="w-full h-full object-cover">
+        <video 
+          autoplay 
+          muted 
+          loop 
+          playsinline 
+          class="w-full h-full object-cover"
+        >
+          <source src="/images/flea-market-aerial.mp4" type="video/mp4">
+          <!-- Fallback image -->
+          <img src="/images/an-openair-clothing-market.jpg" alt="Vintage Market" class="w-full h-full object-cover">
+        </video>
         <div class="absolute inset-0 bg-black bg-opacity-50"></div>
       </div>
       <div class="relative z-10 flex items-center justify-center h-full text-white text-center">
