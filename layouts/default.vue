@@ -24,7 +24,7 @@
                   isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'
                 ]"
               >
-                <span class="font-light">Müstesna</span><span class="font-semibold">Garaj</span>
+                <span class="font-semibold">Müstesna</span><span class="font-light"> Garaj</span>
               </div>
             </NuxtLink>
           </div>
@@ -106,7 +106,7 @@
                 class="h-8 w-auto"
               >
               <h3 class="text-lg">
-                <span class="font-light">Müstesna</span><span class="font-semibold">Garaj</span>
+                <span class="font-semibold">Müstesna</span><span class="font-light"> Garaj</span>
               </h3>
             </div>
             <p class="text-gray-300">Vintage, 2. el ve tasarım satış etkinlikleri organize eden platform.</p>
