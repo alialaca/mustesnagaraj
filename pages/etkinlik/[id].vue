@@ -2,7 +2,36 @@
   <div v-if="event" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Ana Görsel -->
     <div class="mb-8">
-      <img :src="event.image" :alt="event.title" class="w-full h-64 md:h-96 object-cover object-top rounded-lg">
+      <img 
+        :src="event.image" 
+        :alt="event.title" 
+        class="w-full h-64 md:h-96 object-cover object-top rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+        @click="showImageModal = true"
+      >
+    </div>
+
+    <!-- Image Modal -->
+    <div 
+      v-if="showImageModal" 
+      class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+      @click="showImageModal = false"
+    >
+      <div class="relative w-full h-full flex items-center justify-center">
+        <img 
+          :src="event.image" 
+          :alt="event.title" 
+          class="max-w-full max-h-full object-contain rounded-lg"
+          @click.stop
+        >
+        <button 
+          @click="showImageModal = false"
+          class="absolute top-4 right-4 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
     </div>
 
     <!-- Başlık ve Durum -->
@@ -147,6 +176,7 @@ const route = useRoute()
 const { getEventById, formatEventDate } = useEvents()
 
 const event = computed(() => getEventById(route.params.id))
+const showImageModal = ref(false)
 
 const statusClass = computed(() => {
   if (!event.value) return ''
