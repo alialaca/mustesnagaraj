@@ -18,14 +18,14 @@
                 alt="MüstesnaGaraj Logo" 
                 class="h-10 w-auto"
               >
-              <span 
+              <div 
                 :class="[
-                  'text-xl font-bold transition-colors',
+                  'text-xl transition-colors',
                   isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'
                 ]"
               >
-                MüstesnaGaraj
-              </span>
+                <span class="font-light">Müstesna</span><span class="font-semibold">Garaj</span>
+              </div>
             </NuxtLink>
           </div>
           <div class="hidden md:flex space-x-8">
@@ -105,7 +105,9 @@
                 alt="MüstesnaGaraj Logo" 
                 class="h-8 w-auto"
               >
-              <h3 class="text-lg font-semibold">MüstesnaGaraj</h3>
+              <h3 class="text-lg">
+                <span class="font-light">Müstesna</span><span class="font-semibold">Garaj</span>
+              </h3>
             </div>
             <p class="text-gray-300">Vintage, 2. el ve tasarım satış etkinlikleri organize eden platform.</p>
           </div>
