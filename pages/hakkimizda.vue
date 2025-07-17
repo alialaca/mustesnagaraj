@@ -6,9 +6,7 @@
       <div class="mb-8">
         <h2 class="text-2xl font-semibold mb-4">MüstesnaGaraj Nedir?</h2>
         <p class="text-gray-700 mb-4">
-          MüstesnaGaraj, vintage, 2. el ve tasarım ürünlerin buluştuğu eşsiz satış etkinlikleri organize eden bir platformdur. 
-          Çeşitli mekanlarla anlaşarak belirli tarihler için etkinlik alanları oluşturur, bu alanlardaki masaları satışçılara kiralar 
-          ve onların ürünlerini sergileyip satış yapmalarını sağlar.
+          Müstesna Garaj, ikinci el ve tasarım odaklı sürdürülebilir alışveriş kültürünü İzmir’de yaygınlaştırmayı amaçlayan yaratıcı bir pazar etkinliğidir. Moda, tasarım ve geri dönüşüm kavramlarını bir araya getirerek hem çevre bilincini artırmakta hem de bağımsız üreticilere görünürlük sağlamaktadır
         </p>
       </div>
 

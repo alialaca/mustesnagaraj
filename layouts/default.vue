@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-gray-50">
-    <header 
+    <header
       :class="[
         'fixed w-full top-0 z-50 transition-all duration-300',
         isScrolled || !isHomePage ? 'bg-white shadow-sm' : 'bg-transparent'
@@ -9,16 +9,16 @@
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <div class="flex items-center">
-            <NuxtLink 
-              to="/" 
+            <NuxtLink
+              to="/"
               class="flex items-center space-x-3"
             >
-              <img 
-                :src="isScrolled || !isHomePage ? logoBlack : logoWhite" 
-                alt="MüstesnaGaraj Logo" 
+              <img
+                :src="isScrolled || !isHomePage ? logoBlack : logoWhite"
+                alt="MüstesnaGaraj Logo"
                 class="h-10 w-auto"
               >
-              <div 
+              <div
                 :class="[
                   'text-xl transition-colors',
                   isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'
@@ -29,8 +29,8 @@
             </NuxtLink>
           </div>
           <div class="hidden md:flex space-x-8">
-            <NuxtLink 
-              to="/" 
+            <NuxtLink
+              to="/"
               :class="[
                 'transition-colors',
                 isScrolled || !isHomePage ? 'text-gray-700 hover:text-gray-900' : 'text-white hover:text-gray-200'
@@ -38,8 +38,8 @@
             >
               Ana Sayfa
             </NuxtLink>
-            <NuxtLink 
-              to="/etkinlikler" 
+            <NuxtLink
+              to="/etkinlikler"
               :class="[
                 'transition-colors',
                 isScrolled || !isHomePage ? 'text-gray-700 hover:text-gray-900' : 'text-white hover:text-gray-200'
@@ -47,8 +47,8 @@
             >
               Etkinlikler
             </NuxtLink>
-            <NuxtLink 
-              to="/hakkimizda" 
+            <NuxtLink
+              to="/hakkimizda"
               :class="[
                 'transition-colors',
                 isScrolled || !isHomePage ? 'text-gray-700 hover:text-gray-900' : 'text-white hover:text-gray-200'
@@ -56,8 +56,8 @@
             >
               Hakkımızda
             </NuxtLink>
-            <NuxtLink 
-              to="/iletisim" 
+            <NuxtLink
+              to="/iletisim"
               :class="[
                 'transition-colors',
                 isScrolled || !isHomePage ? 'text-gray-700 hover:text-gray-900' : 'text-white hover:text-gray-200'
@@ -67,8 +67,8 @@
             </NuxtLink>
           </div>
           <div class="md:hidden">
-            <button 
-              @click="mobileMenuOpen = !mobileMenuOpen" 
+            <button
+              @click="mobileMenuOpen = !mobileMenuOpen"
               :class="[
                 'transition-colors',
                 isScrolled || !isHomePage ? 'text-gray-700' : 'text-white'
@@ -100,16 +100,16 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div class="flex items-center space-x-3 mb-4">
-              <img 
-                :src="logoWhite" 
-                alt="MüstesnaGaraj Logo" 
+              <img
+                :src="logoWhite"
+                alt="MüstesnaGaraj Logo"
                 class="h-8 w-auto"
               >
               <h3 class="text-lg">
                 <span class="font-semibold">Müstesna</span><span class="font-light"> Garaj</span>
               </h3>
             </div>
-            <p class="text-gray-300">Vintage, 2. el ve tasarım satış etkinlikleri organize eden platform.</p>
+            <small class="text-gray-300">Müstesna Garaj, ikinci el ve tasarım odaklı sürdürülebilir alışveriş kültürünü İzmir’de yaygınlaştırmayı amaçlayan yaratıcı bir pazar etkinliğidir. Moda, tasarım ve geri dönüşüm kavramlarını bir araya getirerek hem çevre bilincini artırmakta hem de bağımsız üreticilere görünürlük sağlamaktadır.</small>
           </div>
           <div>
             <h3 class="text-lg font-semibold mb-4">Hızlı Linkler</h3>
@@ -146,9 +146,9 @@ onMounted(() => {
   const handleScroll = () => {
     isScrolled.value = window.scrollY > 100
   }
-  
+
   window.addEventListener('scroll', handleScroll)
-  
+
   onUnmounted(() => {
     window.removeEventListener('scroll', handleScroll)
   })
