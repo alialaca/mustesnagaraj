@@ -11,12 +11,21 @@
           <div class="flex items-center">
             <NuxtLink 
               to="/" 
-              :class="[
-                'text-xl font-bold transition-colors',
-                isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'
-              ]"
+              class="flex items-center space-x-3"
             >
-              MüstesnaGaraj
+              <img 
+                :src="isScrolled || !isHomePage ? logoBlack : logoWhite" 
+                alt="MüstesnaGaraj Logo" 
+                class="h-10 w-auto"
+              >
+              <span 
+                :class="[
+                  'text-xl font-bold transition-colors',
+                  isScrolled || !isHomePage ? 'text-gray-900' : 'text-white'
+                ]"
+              >
+                MüstesnaGaraj
+              </span>
             </NuxtLink>
           </div>
           <div class="hidden md:flex space-x-8">
@@ -90,7 +99,14 @@
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 class="text-lg font-semibold mb-4">MüstesnaGaraj</h3>
+            <div class="flex items-center space-x-3 mb-4">
+              <img 
+                :src="logoWhite" 
+                alt="MüstesnaGaraj Logo" 
+                class="h-8 w-auto"
+              >
+              <h3 class="text-lg font-semibold">MüstesnaGaraj</h3>
+            </div>
             <p class="text-gray-300">Vintage, 2. el ve tasarım satış etkinlikleri organize eden platform.</p>
           </div>
           <div>
@@ -115,6 +131,9 @@
 </template>
 
 <script setup>
+import logoBlack from '~/assets/images/logo_black.png'
+import logoWhite from '~/assets/images/logo_white.png'
+
 const mobileMenuOpen = ref(false)
 const isScrolled = ref(false)
 const route = useRoute()
