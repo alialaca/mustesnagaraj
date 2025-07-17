@@ -39,7 +39,7 @@
           <div v-for="event in upcomingEvents" :key="event.id" class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
             <div class="md:flex">
               <div class="md:w-1/3">
-                <img :src="event.image" :alt="event.title" class="w-full h-48 md:h-full object-cover">
+                <img :src="event.image" :alt="event.title" class="w-full h-48 md:h-full object-cover object-top">
               </div>
               <div class="md:w-2/3 p-6">
                 <h3 class="text-xl font-semibold mb-2">{{ event.title }}</h3>

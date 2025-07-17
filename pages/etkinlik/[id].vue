@@ -2,7 +2,7 @@
   <div v-if="event" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Ana Görsel -->
     <div class="mb-8">
-      <img :src="event.image" :alt="event.title" class="w-full h-64 md:h-96 object-cover rounded-lg">
+      <img :src="event.image" :alt="event.title" class="w-full h-64 md:h-96 object-cover object-top rounded-lg">
     </div>
 
     <!-- Başlık ve Durum -->

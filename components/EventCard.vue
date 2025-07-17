@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
     <div class="aspect-w-16 aspect-h-9">
-      <img :src="event.image" :alt="event.title" class="w-full h-48 object-cover">
+      <img :src="event.image" :alt="event.title" class="w-full h-48 object-cover object-top">
     </div>
     <div class="p-6">
       <div class="flex justify-between items-start mb-2">
