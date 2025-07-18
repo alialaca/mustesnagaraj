@@ -10,7 +10,7 @@
           playsinline 
           class="w-full h-full object-cover"
         >
-          <source src="/images/flea-market-aerial.mp4" type="video/mp4">
+          <source src="/videos/flea-market-aerial.mp4" type="video/mp4">
           <!-- Fallback image -->
           <img src="/images/an-openair-clothing-market.jpg" alt="Vintage Market" class="w-full h-full object-cover">
         </video>
