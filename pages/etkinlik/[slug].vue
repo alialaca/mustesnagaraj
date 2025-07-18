@@ -173,9 +173,9 @@
 
 <script setup>
 const route = useRoute()
-const { getEventById, formatEventDate } = useEvents()
+const { getEventBySlug, formatEventDate } = useEvents()
 
-const event = computed(() => getEventById(route.params.id))
+const event = computed(() => getEventBySlug(route.params.slug))
 const showImageModal = ref(false)
 
 const statusClass = computed(() => {

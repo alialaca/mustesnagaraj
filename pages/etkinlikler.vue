@@ -25,7 +25,7 @@
           <p class="text-gray-600 mb-2">{{ formatEventDateShort(event.date) }}</p>
           <p class="text-gray-600 mb-4">{{ event.location.name }}</p>
           <p class="text-gray-700 mb-4">{{ event.description }}</p>
-          <NuxtLink :to="`/etkinlik/${event.id}`" class="text-purple-600 hover:text-purple-800 font-medium">
+          <NuxtLink :to="`/etkinlik/${event.slug}`" class="text-purple-600 hover:text-purple-800 font-medium">
             Detayları Gör →
           </NuxtLink>
         </div>
