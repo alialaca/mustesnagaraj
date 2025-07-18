@@ -28,6 +28,9 @@ pnpm generate
 
 # Preview production build
 pnpm preview
+
+# Deploy to production (CapRover)
+pnpm run deploy
 ```
 
 ## Architecture
@@ -57,7 +60,11 @@ pnpm preview
 │   ├── iletisim.vue   # Contact page
 │   └── satisci-basvuru.vue # Vendor application
 ├── public/            # Static assets
-│   └── images/        # Event and UI images
+│   ├── images/        # Event and UI images
+│   ├── videos/        # Video assets (e.g., flea-market-aerial.mp4)
+│   ├── favicon.ico    # Site favicon
+│   ├── apple-touch-icon.png # Apple touch icon
+│   └── robots.txt     # SEO robots file
 └── assets/            # Processed assets
     ├── css/           # Stylesheets
     └── images/        # Images for processing
@@ -98,8 +105,9 @@ pnpm preview
 ## Key Features
 
 ### Event Display
-- Hero section with featured content
+- Hero section with featured content and video background
 - Event cards with image, status, and details
+- **Smart date formatting**: Single day events show one date, multi-day events show date ranges (e.g., "16-17 Ağustos 2025")
 - Horizontal event listing on homepage
 - Vertical event grid on dedicated events page
 - Event detail pages with full information
@@ -123,9 +131,11 @@ pnpm preview
 - Navigation and content labels are in Turkish
 
 ### Static Site Generation
-- Built for deployment as static files
+- Built for deployment as static files using `pnpm generate`
 - No server-side functionality required
 - Images stored in public directory for direct access
+- Deployed via Docker and CapRover using automated deployment script
+- Output directory: `.output/public/`
 
 ### Event Data Structure
 Each event in `events.json` contains:
