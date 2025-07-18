@@ -103,7 +103,7 @@
               <img
                 :src="logoWhite"
                 alt="MüstesnaGaraj Logo"
-                class="h-8 w-auto"
+                class="h-16 w-auto"
               >
               <h3 class="text-lg">
                 <span class="font-semibold">Müstesna</span><span class="font-light"> Garaj</span>

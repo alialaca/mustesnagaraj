@@ -18,8 +18,8 @@
       </div>
       <div class="relative z-10 flex items-center justify-center h-full text-white text-center">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 class="text-5xl md:text-7xl font-bold mb-6 text-white">
-            Müstesna Garaj
+          <h1 class="text-5xl md:text-7xl mb-6 text-white">
+            <span class="font-semibold">Müstesna</span><span class="font-light"> Garaj</span>
           </h1>
           <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-200">
             Vintage, 2. el ve tasarım ürünlerin buluştuğu eşsiz satış etkinlikleri
