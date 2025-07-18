@@ -52,7 +52,7 @@ pnpm preview
 ├── pages/             # File-based routing
 │   ├── index.vue      # Homepage
 │   ├── etkinlikler.vue # Events listing
-│   ├── etkinlik/[id].vue # Event detail pages
+│   ├── etkinlik/[slug].vue # Event detail pages (SEO-friendly URLs)
 │   ├── hakkimizda.vue # About page
 │   ├── iletisim.vue   # Contact page
 │   └── satisci-basvuru.vue # Vendor application
@@ -74,17 +74,20 @@ pnpm preview
 - **useEvents Composable**: Provides event filtering and formatting utilities:
   - `getUpcomingEvents()` - Future events with 'upcoming' status
   - `getCompletedEvents()` - Past/completed events
-  - `getEventById(id)` - Single event retrieval
+  - `getEventById(id)` - Single event retrieval by ID
+  - `getEventBySlug(slug)` - Single event retrieval by SEO-friendly slug
   - `getEventsByCategory(category)` - Category-based filtering
   - `getEventsByStatus(status)` - Status-based filtering
   - `formatEventDate()` - Turkish locale date formatting
   - `formatEventDateShort()` - Short date format
+  - `createSlug(title)` - Generate SEO-friendly slug from title
 
 ### Routing & Navigation
 - File-based routing with Nuxt 3
-- Dynamic routes for event details (`/etkinlik/[id]`)
+- Dynamic routes for event details (`/etkinlik/[slug]`) - SEO-friendly URLs
 - Navigation structure in `layouts/default.vue`
 - Turkish language interface
+- URL structure: `/etkinlik/event-title-slug` instead of `/etkinlik/1`
 
 ### Styling
 - Tailwind CSS with responsive design
@@ -126,9 +129,17 @@ pnpm preview
 
 ### Event Data Structure
 Each event in `events.json` contains:
-- Basic info (id, title, description, dates)
+- Basic info (id, title, slug, description, dates)
+- **SEO-friendly slug** - Used for URL generation (e.g., "event-title-slug")
 - Location with coordinates
 - Status and application availability
 - Table pricing and availability
 - Categories and features array
 - Organizer contact information
+
+### SEO-Friendly URLs
+- Events use slug-based URLs instead of numeric IDs
+- Turkish characters are automatically converted (ç→c, ğ→g, ı→i, ö→o, ş→s, ü→u)
+- Example: `/etkinlik/yerel-tasarimcilar-seramik-giyim-taki-aksesuar`
+- EventCard component uses `event.slug` for navigation links
+- Event detail pages retrieve events by slug using `getEventBySlug()`
