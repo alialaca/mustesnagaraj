@@ -57,7 +57,7 @@
                   <span class="text-sm">{{ event.location.name }}</span>
                 </div>
                 <p class="text-gray-700 text-sm mb-4 line-clamp-2">{{ event.description }}</p>
-                <NuxtLink :to="`/etkinlik/${event.id}`" class="inline-block bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 transition-colors">
+                <NuxtLink :to="`/etkinlik/${event.slug}`" class="inline-block bg-black text-white px-4 py-2 rounded text-sm hover:bg-gray-800 transition-colors">
                   Detayları Gör
                 </NuxtLink>
               </div>
