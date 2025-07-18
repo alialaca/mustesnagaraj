@@ -15,6 +15,7 @@ Web sitesi [mustesnagaraj.com](https://mustesnagaraj.com) adresinde yayında.
 
 - **Responsive Tasarım**: Mobil ve masaüstü cihazlar için optimize edilmiş
 - **Etkinlik Yönetimi**: Yaklaşan, tamamlanmış ve iptal edilen etkinliklerin görüntülenmesi
+- **SEO Dostu URL'ler**: Etkinlik sayfaları için okunabilir slug-based URL yapısı
 - **Dinamik İçerik**: JSON tabanlı etkinlik verisi yönetimi
 - **Satıcı Başvuruları**: Etkinliklere katılım için başvuru formu
 - **Statik Site**: Hızlı yüklenen, SEO dostu yapı
@@ -66,7 +67,7 @@ pnpm preview
 ├── pages/             # Sayfa bileşenleri (file-based routing)
 │   ├── index.vue      # Ana sayfa
 │   ├── etkinlikler.vue # Etkinlik listesi
-│   ├── etkinlik/[id].vue # Etkinlik detay sayfaları
+│   ├── etkinlik/[slug].vue # Etkinlik detay sayfaları (SEO dostu URL'ler)
 │   ├── hakkimizda.vue # Hakkımızda sayfası
 │   ├── iletisim.vue   # İletişim sayfası
 │   └── satisci-basvuru.vue # Satıcı başvuru formu
@@ -80,6 +81,7 @@ pnpm preview
 
 ### Etkinlik Yönetimi
 - **Etkinlik Durumları**: Yaklaşan, tamamlanmış, iptal edilen
+- **SEO Dostu URL'ler**: `/etkinlik/slug-adi` formatında temiz URL yapısı
 - **Dinamik Filtreleme**: Tarih ve durum tabanlı filtreleme
 - **Detaylı Görüntüleme**: Her etkinlik için ayrıntılı bilgi sayfası
 - **Başvuru Sistemi**: Satıcı başvurularının yönetimi
@@ -101,23 +103,40 @@ Yeni etkinlik eklemek için `data/events.json` dosyasını düzenleyin:
 
 ```json
 {
-  "id": "unique-id",
+  "id": 1,
   "title": "Etkinlik Adı",
+  "slug": "etkinlik-adi",
   "description": "Etkinlik açıklaması",
-  "date": "2024-MM-DD",
+  "date": "2024-MM-DDTHH:MM:SS",
+  "endDate": "2024-MM-DDTHH:MM:SS",
   "status": "upcoming",
   "location": {
     "name": "Mekan Adı",
     "address": "Adres",
-    "coordinates": [lat, lng]
+    "coordinates": {
+      "lat": 38.4337,
+      "lng": 27.1444
+    }
   },
-  "tables": {
-    "total": 50,
-    "price": 500,
-    "available": true
+  "image": "/images/etkinlik.jpg",
+  "applicationOpen": true,
+  "totalTables": 50,
+  "availableTables": 30,
+  "tablePrice": 500,
+  "googleFormUrl": "https://forms.gle/example",
+  "features": [
+    "Özellik 1",
+    "Özellik 2"
+  ],
+  "categories": ["kategori1", "kategori2"],
+  "organizer": {
+    "name": "MüstesnaGaraj",
+    "contact": "info@mustesnagaraj.com"
   }
 }
 ```
+
+**Önemli**: `slug` alanı SEO dostu URL'ler için kullanılır. Türkçe karakterler otomatik olarak İngilizce karşılıklarıyla değiştirilir.
 
 ### Stil Değişiklikleri
 Tailwind CSS sınıflarını kullanarak stilleri özelleştirin. Ana renk paleti:
