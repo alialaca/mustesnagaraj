@@ -39,10 +39,7 @@ export const useEvents = () => {
   }
 
   const getEventBySlug = (slug) => {
-    return events.value.find(event => {
-      const eventSlug = createSlug(event.title)
-      return eventSlug === slug
-    })
+    return events.value.find(event => event.slug === slug)
   }
 
   const getEventsByCategory = (category) => {
