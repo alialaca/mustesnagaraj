@@ -19,8 +19,30 @@ export const useEvents = () => {
     }).sort((a, b) => new Date(b.date) - new Date(a.date))
   }
 
+  const createSlug = (title) => {
+    const turkishChars = {
+      'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u',
+      'Ç': 'C', 'Ğ': 'G', 'İ': 'I', 'Ö': 'O', 'Ş': 'S', 'Ü': 'U'
+    }
+    
+    return title
+      .toLowerCase()
+      .replace(/[çğıöşüÇĞİÖŞÜ]/g, (char) => turkishChars[char] || char)
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '')
+  }
+
   const getEventById = (id) => {
     return events.value.find(event => event.id === parseInt(id))
+  }
+
+  const getEventBySlug = (slug) => {
+    return events.value.find(event => {
+      const eventSlug = createSlug(event.title)
+      return eventSlug === slug
+    })
   }
 
   const getEventsByCategory = (category) => {
@@ -59,9 +81,11 @@ export const useEvents = () => {
     getUpcomingEvents,
     getCompletedEvents,
     getEventById,
+    getEventBySlug,
     getEventsByCategory,
     getEventsByStatus,
     formatEventDate,
-    formatEventDateShort
+    formatEventDateShort,
+    createSlug
   }
 }
