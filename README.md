@@ -18,6 +18,7 @@ Web sitesi [mustesnagaraj.com](https://mustesnagaraj.com) adresinde yayında.
 - **SEO Dostu URL'ler**: Etkinlik sayfaları için okunabilir slug-based URL yapısı
 - **Dinamik İçerik**: JSON tabanlı etkinlik verisi yönetimi
 - **Satıcı Başvuruları**: Etkinliklere katılım için başvuru formu
+- **Analytics**: Umami ile web sitesi ve etkinlik analitikleri
 - **Statik Site**: Hızlı yüklenen, SEO dostu yapı
 - **Türkçe Arayüz**: Tam Türkçe dil desteği
 
@@ -27,6 +28,7 @@ Web sitesi [mustesnagaraj.com](https://mustesnagaraj.com) adresinde yayında.
 - **[Vue 3](https://vuejs.org/)** - Composition API ile modern frontend
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[TypeScript](https://www.typescriptlang.org/)** - Tip güvenliği
+- **[Umami](https://umami.is/)** - Privacy-friendly web analytics
 - **[PNPM](https://pnpm.io/)** - Performanslı paket yöneticisi
 
 ## 📋 Gereksinimler
@@ -95,6 +97,12 @@ pnpm preview
 - **JSON Tabanlı**: Kolay güncellenebilir etkinlik verisi
 - **Composable Yapı**: Yeniden kullanılabilir veri fonksiyonları
 - **Türkçe Yerelleştirme**: Tarih formatları ve arayüz dili
+
+### Analytics & Tracking
+- **Web Analytics**: Umami ile sayfa görüntüleme ve kullanıcı davranışı analizi
+- **Route Tracking**: Otomatik sayfa geçiş izleme
+- **Event Tracking**: Etkinlik başvuru butonları için özel event izleme
+- **Privacy-Friendly**: GDPR uyumlu, çerez gerektirmeyen analitik
 
 ## 🔧 Geliştirme
 
