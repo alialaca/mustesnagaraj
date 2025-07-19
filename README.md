@@ -18,6 +18,7 @@ Web sitesi [mustesnagaraj.com](https://mustesnagaraj.com) adresinde yayında.
 - **SEO Dostu URL'ler**: Etkinlik sayfaları için okunabilir slug-based URL yapısı
 - **Dinamik İçerik**: JSON tabanlı etkinlik verisi yönetimi
 - **Satıcı Başvuruları**: Etkinliklere katılım için başvuru formu
+- **İletişim Formu**: EmailJS ile backend gerektirmeyen e-posta gönderimi
 - **Analytics**: Umami ile web sitesi ve etkinlik analitikleri
 - **Statik Site**: Hızlı yüklenen, SEO dostu yapı
 - **Türkçe Arayüz**: Tam Türkçe dil desteği
@@ -59,7 +60,8 @@ pnpm preview
 
 ```
 ├── components/          # Vue bileşenleri
-│   └── EventCard.vue   # Etkinlik kartı bileşeni
+│   ├── EventCard.vue   # Etkinlik kartı bileşeni
+│   └── ContactForm.vue # İletişim formu (EmailJS entegrasyonu)
 ├── composables/        # Vue composable'ları
 │   └── useEvents.js    # Etkinlik veri yönetimi
 ├── data/              # JSON veri dosyaları
@@ -101,8 +103,14 @@ pnpm preview
 ### Analytics & Tracking
 - **Web Analytics**: Umami ile sayfa görüntüleme ve kullanıcı davranışı analizi
 - **Route Tracking**: Otomatik sayfa geçiş izleme
-- **Event Tracking**: Etkinlik başvuru butonları için özel event izleme
+- **Event Tracking**: Etkinlik başvuru butonları ve iletişim formu için özel event izleme
 - **Privacy-Friendly**: GDPR uyumlu, çerez gerektirmeyen analitik
+
+### İletişim ve Form Yönetimi
+- **EmailJS Entegrasyonu**: Backend gerektirmeyen e-posta gönderimi
+- **ContactForm Bileşeni**: Yeniden kullanılabilir iletişim formu
+- **Form Validasyonu**: Client-side form doğrulama ve kullanıcı geri bildirimi
+- **Analytics Entegrasyonu**: Form gönderimlerinin Umami ile izlenmesi
 
 ## 🔧 Geliştirme
 
