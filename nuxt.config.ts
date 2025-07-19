@@ -5,6 +5,13 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
+  runtimeConfig: {
+    public: {
+      emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
+      emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
+      emailjsPublicKey: process.env.EMAILJS_PUBLIC_KEY
+    }
+  },
   app: {
     head: {
       link: [

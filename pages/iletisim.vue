@@ -73,6 +73,8 @@
 </template>
 
 <script setup>
+import emailjs from '@emailjs/browser'
+
 const form = ref({
   name: '',
   email: '',
@@ -89,8 +91,22 @@ const submitForm = async () => {
   submitMessage.value = ''
   
   try {
-    // Gerçek formda burada API çağrısı yapılacak
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    const templateParams = {
+      from_name: form.value.name,
+      from_email: form.value.email,
+      subject: form.value.subject,
+      message: form.value.message,
+      to_email: 'info@mustesnagaraj.com'
+    }
+
+    const config = useRuntimeConfig()
+    
+    await emailjs.send(
+      config.public.emailjsServiceId,
+      config.public.emailjsTemplateId,
+      templateParams,
+      config.public.emailjsPublicKey
+    )
     
     submitMessage.value = 'Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız.'
     submitSuccess.value = true
@@ -103,6 +119,7 @@ const submitForm = async () => {
       message: ''
     }
   } catch (error) {
+    console.error('EmailJS Error:', error)
     submitMessage.value = 'Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin.'
     submitSuccess.value = false
   } finally {
