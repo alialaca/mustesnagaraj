@@ -96,6 +96,13 @@ pnpm run deploy
 - Turkish language interface
 - URL structure: `/etkinlik/event-title-slug` instead of `/etkinlik/1`
 
+### Analytics & Tracking
+- **Umami Analytics**: Privacy-friendly web analytics integrated via `nuxt.config.ts`
+- **Route Tracking**: Automatic page view tracking implemented in `app.vue`
+- **Event Tracking**: Custom event tracking for application button clicks in event detail pages
+- **Configuration**: Umami script loaded via header configuration with website ID
+- **Privacy-Compliant**: GDPR-friendly analytics without requiring cookie consent
+
 ### Styling
 - Tailwind CSS with responsive design
 - Mobile-first approach
@@ -153,3 +160,12 @@ Each event in `events.json` contains:
 - Example: `/etkinlik/yerel-tasarimcilar-seramik-giyim-taki-aksesuar`
 - EventCard component uses `event.slug` for navigation links
 - Event detail pages retrieve events by slug using `getEventBySlug()`
+
+### Analytics Implementation Details
+- **Umami Script**: Loaded in `nuxt.config.ts` via head script configuration
+- **Route Tracking**: `app.vue` watches route changes and calls `window.umami.track()`
+- **Application Click Tracking**: Event detail pages (`/pages/etkinlik/[slug].vue`) track button clicks with:
+  - Event name: `'form-click'`
+  - Properties: `event_slug`, `event_id`
+- **Browser Compatibility**: Uses feature detection to check if `window.umami` exists
+- **No Dependencies**: Pure JavaScript implementation without additional packages
