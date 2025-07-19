@@ -65,6 +65,14 @@ const submitForm = async () => {
       config.public.emailjsPublicKey
     )
     
+    // Umami event tracking
+    if (typeof window !== 'undefined' && window.umami) {
+      window.umami.track('contact-form-submit', {
+        subject: form.value.subject,
+        from_email: form.value.email
+      })
+    }
+    
     submitMessage.value = 'Mesajınız başarıyla gönderildi. En kısa sürede size geri dönüş yapacağız.'
     submitSuccess.value = true
     
