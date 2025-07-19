@@ -45,7 +45,8 @@ pnpm run deploy
 ### File Structure
 ```
 ├── components/          # Vue components
-│   └── EventCard.vue   # Event display component
+│   ├── EventCard.vue   # Event display component
+│   └── ContactForm.vue # Contact form with EmailJS integration
 ├── composables/        # Vue composables
 │   └── useEvents.js    # Event data management
 ├── data/              # JSON data files
@@ -100,8 +101,16 @@ pnpm run deploy
 - **Umami Analytics**: Privacy-friendly web analytics integrated via `nuxt.config.ts`
 - **Route Tracking**: Automatic page view tracking implemented in `app.vue`
 - **Event Tracking**: Custom event tracking for application button clicks in event detail pages
+- **Contact Form Tracking**: Form submissions tracked with `contact-form-submit` event
 - **Configuration**: Umami script loaded via header configuration with website ID
 - **Privacy-Compliant**: GDPR-friendly analytics without requiring cookie consent
+
+### Contact Form & Email Integration
+- **EmailJS Integration**: Contact form uses EmailJS for email delivery without backend
+- **ContactForm Component**: Reusable contact form component with validation and feedback
+- **Environment Configuration**: EmailJS credentials managed via runtime config
+- **Form Analytics**: Contact form submissions tracked via Umami analytics
+- **User Experience**: Real-time feedback, loading states, and form validation
 
 ### Styling
 - Tailwind CSS with responsive design
@@ -167,5 +176,16 @@ Each event in `events.json` contains:
 - **Application Click Tracking**: Event detail pages (`/pages/etkinlik/[slug].vue`) track button clicks with:
   - Event name: `'form-click'`
   - Properties: `event_slug`, `event_id`
+- **Contact Form Tracking**: ContactForm component tracks successful submissions with:
+  - Event name: `'contact-form-submit'`
+  - Properties: `subject`, `from_email`
 - **Browser Compatibility**: Uses feature detection to check if `window.umami` exists
 - **No Dependencies**: Pure JavaScript implementation without additional packages
+
+### EmailJS Configuration
+EmailJS integration requires the following environment variables:
+- `EMAILJS_SERVICE_ID` - EmailJS service identifier
+- `EMAILJS_TEMPLATE_ID` - Email template identifier
+- `EMAILJS_PUBLIC_KEY` - EmailJS public key for client-side authentication
+
+These are configured in `nuxt.config.ts` via `runtimeConfig.public` for client-side access.
