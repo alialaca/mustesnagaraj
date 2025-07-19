@@ -140,6 +140,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="inline-block bg-purple-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-purple-700 transition-colors"
+        @click="trackApplicationClick"
       >
         Masa Başvurusu Yap
       </a>
@@ -208,6 +209,15 @@ const statusText = computed(() => {
   }
 })
 
+// Umami Analytics
+const trackApplicationClick = () => {
+  if (window.umami && event.value) {
+    window.umami.track('form-click', {
+      event_slug: event.value.slug,
+      event_id: event.value.id
+    })
+  }
+}
 
 // SEO
 useHead(() => ({
