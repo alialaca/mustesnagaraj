@@ -179,6 +179,13 @@ const { getEventBySlug, formatEventDate } = useEvents()
 const event = computed(() => getEventBySlug(route.params.slug))
 const showImageModal = ref(false)
 
+// Etkinlik bulunamazsa anasayfaya yönlendir
+watch(event, (newEvent) => {
+  if (newEvent === undefined && process.client) {
+    navigateTo('/')
+  }
+}, { immediate: true })
+
 const statusClass = computed(() => {
   if (!event.value) return ''
   
