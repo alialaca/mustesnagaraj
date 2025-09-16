@@ -83,8 +83,8 @@
         }
       },
       "image": "/images/havagazi.jpg",
-      "status": "upcoming",
-      "applicationOpen": true,
+      "status": "completed",
+      "applicationOpen": false,
       "totalTables": null,
       "availableTables": 200,
       "tablePrice": null,
@@ -97,6 +97,73 @@
         "Canlı DJ performansları"
       ],
       "categories": ["festival", "2. el", "tasarım", "vintage", "stickjam"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Vintage Pazarı",
+      "slug": "monk-antikacilar-carsisi",
+      "description": "Kemeraltı antikacılar çarşısında Monk Commutiy'ile birlikte düzenleyeceğimiz Vintage Pazarı’nda, geçmişin ruhunu taşıyan eşsiz parçalar seni bekliyor! \n\nTarihi atmosferde, el yapımı takılardan vintage giyime, nostaljik objelerden antika kitaplara kadar geniş bir yelpazede ürünler seni bekliyor. \n\nDJ performansları eşliğinde gerçekleştirilecek bu etkinlikte, hem alışveriş yapabilir hem de keyifli vakit geçirebilirsin. \n\nTarihi Kemeraltı Çarşısı’nın büyülü atmosferinde, geçmişin izlerini taşıyan bu eşsiz pazara davetlisiniz!",
+      "date": "2025-08-23T13:00:00",
+      "endDate": "2025-08-23T19:30:00",
+      "location": {
+        "name": "Monk Community /Antikacılar Çarşısı",
+        "address": "Konak, 874. Sk. 17 H, 35250 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4193119,
+          "lng": 27.133796
+        }
+      },
+      "image": "/images/monk-antikacilar.jpeg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/k9thRu15WH3SF8KE9",
+      "features": [
+        "Tarihi mekanda etkinlik",
+        "Tasarımcı ürünleri",
+        "Canlı DJ performansları"
+      ],
+      "categories": ["2. el", "tasarım", "vintage", "dj performansı"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Artist Alley",
+      "slug": "artistalley-antikacilar-carsisi",
+      "description": "Bizim için \"Pazar\" sadece alışveriş değil; bir buluşma alanı. Bu yüzden her etkinliğimizde sınırlı kontenjanla ücretsiz sanatçı masası açıyoruz. Önceliğimiz üretimiyle söz söyleyen bağımsız sanatçılar, yeni hikayeler, sürdürebilir bakış. Çizgini, sesini, fikrini ortaya koy!",
+      "date": "2025-08-23T13:00:00",
+      "endDate": "2025-08-23T19:30:00",
+      "location": {
+        "name": "Monk Community /Antikacılar Çarşısı",
+        "address": "Konak, 874. Sk. 17 H, 35250 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4193119,
+          "lng": 27.133796
+        }
+      },
+      "image": "/images/monk-artistalley.jpeg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": 10,
+      "availableTables": 0,
+      "tablePrice": 0,
+      "googleFormUrl": "https://forms.gle/E9NavsxMGEMmno2i6",
+      "features": [
+        "Tarihi mekanda etkinlik",
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Canlı DJ performansları"
+      ],
+      "categories": ["resim", "sanat", "dj performansı"],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
