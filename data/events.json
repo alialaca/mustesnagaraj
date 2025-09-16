@@ -168,6 +168,41 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 6,
+      "title": "Vintage ve Tasarım Pazarı",
+      "slug": "zoe-vintage-ve-tasarim-pazari",
+      "description": "Geçmişin ruhunu taşıyan seçili vintage giyim parçaları ve yerel tasarımcıların özgün işleri Zoë Cafe’nin huzurlu atmosferinde sizlerle buluşuyor. \uD83E\uDDE5\uD83D\uDC57\uD83C\uDFA8\n\nBahçede kahvenizi yudumlarken hem zamansız parçaları keşfedin hem de yaratıcı tasarımcıların hikâyelerine tanıklık edin.",
+      "date": "2025-09-20T14:00:00",
+      "endDate": "2025-09-20T21:30:00",
+      "location": {
+        "name": "Zoë Coffee",
+        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35390 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/zoe-vintage.jpeg",
+      "status": "upcoming",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer"
+      ],
+      "categories": ["vintage", "tasarim", "cafe"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
