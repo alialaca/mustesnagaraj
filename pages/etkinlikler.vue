@@ -61,6 +61,8 @@ const statusText = (status) => {
   switch (status) {
     case 'upcoming':
       return 'Yaklaşan'
+    case 'progress':
+      return 'Devam Ediyor'
     case 'completed':
       return 'Tamamlandı'
     default:

@@ -70,13 +70,14 @@
               <p class="text-gray-500 text-sm">{{ event.location.address }}</p>
             </div>
           </div>
-          <div v-if="event.tablePrice" class="flex items-center">
+          <div v-if="event.tablePrice || event.tablePrice === 0" class="flex items-center">
             <svg class="h-5 w-5 text-purple-600 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
             </svg>
             <div>
               <p class="font-medium">Masa Ücreti</p>
-              <p class="text-gray-600">{{ event.tablePrice }} TL</p>
+              <p v-if="event.tablePrice ===0" class="text-gray-600">Ücretsiz</p>
+              <p v-else class="text-gray-600">{{ event.tablePrice }} ₺</p>
             </div>
           </div>
         </div>
@@ -135,7 +136,7 @@
     <!-- Başvuru Butonu -->
     <div class="text-center">
       <a 
-        v-if="event.googleFormUrl && event.applicationOpen && (event.availableTables === undefined || event.availableTables > 0)"
+        v-if="event.googleFormUrl && event.applicationOpen && !(event.availableTables === 0)"
         :href="event.googleFormUrl"
         target="_blank"
         rel="noopener noreferrer"
@@ -179,10 +180,10 @@ const { getEventBySlug, formatEventDate } = useEvents()
 const event = computed(() => getEventBySlug(route.params.slug))
 const showImageModal = ref(false)
 
-// Etkinlik bulunamazsa anasayfaya yönlendir
+// Hash routing ile yönlendirme gereksiz, sadece 404 kontrolü yap
 watch(event, (newEvent) => {
   if (newEvent === undefined && process.client) {
-    navigateTo('/')
+    console.warn('Etkinlik bulunamadı:', route.params.slug)
   }
 }, { immediate: true })
 
@@ -194,6 +195,8 @@ const statusClass = computed(() => {
       return 'bg-green-100 text-green-800'
     case 'completed':
       return 'bg-gray-100 text-gray-800'
+    case 'progress':
+      return 'bg-blue-100 text-blue-800'
     case 'cancelled':
       return 'bg-red-100 text-red-800'
     default:
@@ -207,6 +210,8 @@ const statusText = computed(() => {
   switch (event.value.status) {
     case 'upcoming':
       return 'Yaklaşan'
+    case 'progress':
+      return 'Devam Ediyor'
     case 'completed':
       return 'Tamamlandı'
     case 'cancelled':
