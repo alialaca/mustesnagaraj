@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
+  router: {
+    options: {
+      hashMode: false
+    }
+  },
   runtimeConfig: {
     public: {
       emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
