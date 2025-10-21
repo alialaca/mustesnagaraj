@@ -203,6 +203,146 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 7,
+      "title": "Vintage ve Tasarım Pazarı",
+      "slug": "zoe-vintage-ve-tasarim-pazari-11-ekim",
+      "description": "11 Ekim’de Zoe’de buluşuyoruz! \uD83D\uDECD\uFE0F\nKıyafetler, aksesuarlar, tasarımlar, kahve kokusu ve bol sohbet bir arada olacak. ☕\uD83C\uDF70\n\nSaat 14:00’ten 21:00’e kadar uğra, bir şeyler keşfet, yeni hikâyeler biriktir. ✨",
+      "date": "2025-10-11T14:00:00",
+      "endDate": "2025-10-11T21:00:00",
+      "location": {
+        "name": "Zoë Coffee",
+        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35390 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/zoe-vintage-11-ekim.jpeg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer"
+      ],
+      "categories": ["vintage", "tasarim", "cafe"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Vintage ve Bitki Pazarı",
+      "slug": "hoi-slow-market",
+      "description": "19 Ekim’de Vintage ve Bitki Pazarı için buluşuyoruz \uD83C\uDF3F\uD83D\uDC57\nVintage parçalar, bitkiler, el emeği tasarımlar ve keyifli bir atmosfer seni bekliyor. Gün boyu hem alışveriş yapabilir hem de kahveni yudumlarken standları gezip yeni keşifler yapabilirsin.\n\n\uD83D\uDCCD 14:00 – 21:00 arası HOI Coffee’deyiz.\nGel, birlikte bu keyifli günü paylaşalım \uD83D\uDC9A",
+      "date": "2025-10-19T14:00:00",
+      "endDate": "2025-10-19T21:00:00",
+      "location": {
+        "name": "Hoi Coffee",
+        "address": "Barbaros Mahallesi,331. Sk No:3 D.1, 35260 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/hoi-slow-market.jpeg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer",
+        "Bitki çeşitleri"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Vintage Depo Satışı",
+      "slug": "kirk-merdiven-vintage-depo-satisi",
+      "description": "26 Ekim Pazar günü Kırkmerdiven’de buluşuyoruz! \uD83C\uDF89\nMüstesna Garaj’ın en sevilen etkinliklerinden biri olan Vintage Depo Satışı’nın ikincisini de, ilki gibi Kırkmerdiven’de yapıyoruz. \n\n\uD83D\uDC57 Gardıroplar hikâyelerle dolacak çünkü her şey sadece 100 TL!\n\uD83C\uDF3F Gel, keşfet, seç ve kendi tarzını yarat.\n\nTarihi şimdiden not et: 26 Ekim, 14:00-20:30 Pazar – Kırkmerdiven\nSıcak bir pazar günü, vintage parçalar ve bolca sürpriz seni bekliyor. \uD83D\uDC9B",
+      "date": "2025-10-26T14:00:00",
+      "endDate": "2025-10-26T20:30:00",
+      "location": {
+        "name": "Kırkmerdiven",
+        "address": "Karataş, Turgut Reis Mah.\n305. Sk. No:59/A, 35280\nKonak / İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/kirkmerdiven-depo-satisi.jpeg",
+      "status": "upcoming",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "features": [
+        "Depo satış fiyatları",
+        "2. el vintage parçalar",
+        "Uygun fiyatlı ürünler",
+        "Geniş ürün yelpazesi"
+      ],
+      "categories": ["vintage", "2. el", "depo satış"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Halloween Bazaar",
+      "slug": "zoe-halloween-bazaar",
+      "description": "\uD83C\uDF83 Halloween Bazaar Başlıyor! \uD83C\uDF83\n\n31 Ekim – 2 Kasım tarihlerinde, tam 3 gün boyunca Zoë‘de buluşuyoruz!\nSaat 14:00 – 21:00 arasında, hem keyifli hem de biraz ürkütücü bir atmosfer seni bekliyor. \uD83D\uDC7B✨\n\n\uD83E\uDDE5 Vintage parçalar ve farklı zevklere hitap eden tasarım stantları\n\uD83C\uDFAD Yaratıcılığını konuşturabileceğin kostüm yarışması\n\uD83D\uDD8C Katılabileceğin eğlenceli atölyeler\n\uD83D\uDCF8 Unutulmaz kareler için özel hazırlanmış Halloween fotoğraf köşesi\n\uD83E\uDD42 Etkinliğe özel hazırlanmış Halloween menüsü\n\nBiraz ilham, biraz sürpriz, bolca keyif için seni de bekliyoruz.\nKostümünü giy, arkadaşlarını topla ve bu deneyimi kaçırma! \uD83C\uDF19\uD83E\uDD87",
+      "date": "2025-10-31T14:00:00",
+      "endDate": "2025-11-02T21:00:00",
+      "location": {
+        "name": "Hoi Coffee",
+        "address": "Barbaros Mahallesi,331. Sk No:3 D.1, 35260 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/halloween-bazaar.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": 16,
+      "availableTables": 4,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/6qLtVp85mDUrFC6R8",
+      "features": [
+        "Yaratıcı fikirler",
+        "Vintage ve tasarım ürünleri",
+        "Kostüm yarışması",
+        "Atölyeler",
+        "Halloween menüsü",
+        "Halloween fotoğraf köşesi"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "halloween", "atölye", "kostüm"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
