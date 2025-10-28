@@ -291,7 +291,7 @@
         }
       },
       "image": "/images/kirkmerdiven-depo-satisi.jpeg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
       "availableTables": null,
@@ -339,6 +339,41 @@
         "Halloween fotoğraf köşesi"
       ],
       "categories": ["vintage", "tasarim", "cafe", "halloween", "atölye", "kostüm"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Vintage ve Tasarım Pazarı",
+      "slug": "la-loba-vintage-ve-tasarim-pazari",
+      "description": "Müstesna Garaj olarak ilk kez Buca’dayız ve seni çok özel bir buluşmaya davet ediyoruz:\nVintage ve Tasarım Pazarı \uD83C\uDFBD✨La Loba, Buca’nın içinde saklı kalmış gibi duran, karakteri olan, mimarisiyle ilk andan itibaren “burada vakit geçirmek istiyorum” dedirten bir yer. Yüksek tavanlar, dokusu korunmuş detaylar, kahve kokusu ve ışığın içeri düşüşü… Orada olmak bile tek başına keyif. Biz de tam o yüzden ilk Buca etkinliğimizi La Loba’da yapmak istedik \uD83D\uDC9B\n\nGel, kahveni al, standları gez, güzel insanlarla tanış, belki dolabına yeni bir hikâye ekle. Bu sadece bir pazar değil; hafif hafif müzik eşliğinde, yavaş akan, iyi hissettiren bir gün.\n\nBuca’da buluşalım mı? \uD83C\uDF3F☕\uD83D\uDD6F\uFE0F",
+      "date": "2025-11-15T14:00:00",
+      "endDate": "2025-11-15T21:00:00",
+      "location": {
+        "name": "La Loba Coffee Collective",
+        "address": "Adatepe Mah. 4/1 Sk No:4 Buca/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/la-loba.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": null,
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "İkinci el hazineler",
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler",
+        "Dj performansı"
+      ],
+      "categories": ["vintage", "tasarim", "coffee", "dj performans"],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
