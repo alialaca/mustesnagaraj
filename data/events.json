@@ -378,6 +378,42 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 12,
+      "title": "Garaj Satışı",
+      "slug": "hoi-garaj-satisi",
+      "description": "Her şey 100₺ \uD83D\uDCA5\nDolap temizliği yapıyoruz ama bu sefer birlikte!\n8 Kasım 2025’te Hoi’de mini bir Garaj Satışı kuruyoruz. Vintage parçalar, şirin takılar, el yapımı küçük obje ve aksesuarlar… Hepsi tek fiyat: 100₺ \uD83E\uDDE1",
+      "date": "2025-11-08T14:00:00",
+      "endDate": "2025-11-08T21:00:00",
+      "location": {
+        "name": "Hoi Coffee & Plants",
+        "address": "Barbaros Mahallesi,331. Sk No:3 D.1, 35260 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/hoi-garage-sale.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer",
+        "Bitki çeşitleri"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
