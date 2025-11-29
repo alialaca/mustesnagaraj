@@ -185,7 +185,7 @@
         }
       },
       "image": "/images/zoe-vintage.jpeg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
       "availableTables": null,
@@ -360,7 +360,7 @@
         }
       },
       "image": "/images/la-loba.jpeg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": true,
       "totalTables": null,
       "availableTables": null,
@@ -444,6 +444,40 @@
         "Özgün işler"
       ],
       "categories": ["vintage", "tasarim", "tcafe", "takas"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Christmas Garage Sale",
+      "slug": "resmo-christmas-garage-sale",
+      "description": "Müstesna Garaj olarak, Bornova’da ilk kez Christmas temalı bir Garage Sale yapıyoruz! \uD83C\uDF84✨\n\nSıcacık kahve kokusunun yayıldığı Resmo Roasting Co.’da, yılbaşı ruhunu dolaplarımızdaki parçalarla buluşturuyoruz.\nKazaklar, elbiseler, ceketler, minik sürprizler… Ne bulursan HER ŞEY 100 TL! \uD83D\uDD25",
+      "date": "2025-11-29T14:00:00",
+      "endDate": "2025-11-30T21:00:00",
+      "location": {
+        "name": "Resmo Roasting Co.",
+        "address": "Kazımdirik 172 Sokak No:15A, Bornova / İzmir",
+        "coordinates": {
+          "lat": 38.4618993,
+          "lng": 27.2124115
+        }
+      },
+      "image": "/images/resmo-christmas-garage-sale.jpeg",
+      "status": "running",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "garage sale"],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
