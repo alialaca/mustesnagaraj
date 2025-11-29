@@ -414,6 +414,40 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 13,
+      "title": "Bunu Giyecek Yerim Yok Partisi",
+      "slug": "bunu-giyecek-yerim-yok-partisi",
+      "description": "“Bunu Giyecek Yerim Yok” Partisi; dolapta bekleyen, bir türlü giyemediğin ama çok sevdiğin parçaların sahneye çıktığı eğlenceli bir ikinci el buluşması.",
+      "date": "2025-11-09T14:00:00",
+      "endDate": "2025-11-09T21:00:00",
+      "location": {
+        "name": "Zoë Coffee",
+        "address": "Barbaros Mahallesi, Mithatpaşa Cd. No:121, 35390 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/bunu-giyecek-yerim-yok.jpeg",
+      "status": "completed",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler"
+      ],
+      "categories": ["vintage", "tasarim", "tcafe", "takas"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
