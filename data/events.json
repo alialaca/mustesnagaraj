@@ -482,6 +482,40 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 15,
+      "title": "Balcon Garage Sale",
+      "slug": "balcon-garage-sale",
+      "description": "Müstesna Garaj olarak, Bornova’da ilk kez Christmas temalı bir Garage Sale yapıyoruz! \uD83C\uDF84✨\n\nSıcacık kahve kokusunun yayıldığı Resmo Roasting Co.’da, yılbaşı ruhunu dolaplarımızdaki parçalarla buluşturuyoruz.\nKazaklar, elbiseler, ceketler, minik sürprizler… Ne bulursan HER ŞEY 100 TL! \uD83D\uDD25",
+      "date": "2025-12-06T14:00:00",
+      "endDate": "2025-12-06T21:00:00",
+      "location": {
+        "name": "Le Balcon Cafe",
+        "address": "Bostanlı, 1811. Sk. 31/A, 35590 Karşıyaka/İzmir",
+        "coordinates": {
+          "lat": 38.4624,
+          "lng": 27.0668
+        }
+      },
+      "image": "/images/balcon-garage-sale.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "garage sale"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
