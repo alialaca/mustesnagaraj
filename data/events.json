@@ -516,6 +516,43 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 16,
+      "title": "Christmas Market",
+      "slug": "hoi-christmas-market",
+      "description": "Yılbaşı alışverişini kalabalık AVM’ler yerine, sürdürülebilir ve hikâyesi olan parçalardan yapmak istersen, seni Christmas Market’e bekliyoruz.",
+      "date": "2025-12-13T14:00:00",
+      "endDate": "2025-12-14T21:00:00",
+      "location": {
+        "name": "Hoi Coffee & Plants",
+        "address": "Barbaros Mahallesi,331. Sk No:3 D.1, 35260 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/hoi-christmas-market.jpeg",
+      "status": "upcoming",
+      "applicationOpen": false,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer",
+        "Bitki çeşitleri"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
     }
   ]
 }
