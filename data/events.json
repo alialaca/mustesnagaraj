@@ -465,7 +465,7 @@
         }
       },
       "image": "/images/resmo-christmas-garage-sale.jpeg",
-      "status": "running",
+      "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
       "availableTables": null,
@@ -499,7 +499,7 @@
         }
       },
       "image": "/images/balcon-garage-sale.jpeg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": true,
       "totalTables": null,
       "availableTables": null,
