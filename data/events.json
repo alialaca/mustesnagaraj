@@ -587,6 +587,33 @@
         "contact": "info@mustesnagaraj.com"
       }
     },
+    {
+      "id": 18,
+      "title": "Christmas Market",
+      "slug": "la-loba-christmas-market",
+      "description": "Yılbaşında tekrar Laloba’da bir araya geliyoruz\uD83E\uDD73\nMahalle buluşması gibi hissettiren o sıcak ortamı bu kez Christmas Market’le geri getiriyoruz. \uD83C\uDF84",
+      "date": "2025-12-21T14:00:00",
+      "endDate": "2025-12-21T21:00:00",
+      "location": {
+        "name": "La Loba Coffee Collective",
+        "address": "Adatepe Mah. 4/1 Sk No:4 Buca/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/la-loba-christmas-market.png",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "İkinci el hazineler",
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
       "categories": ["vintage", "tasarim", "coffee"],
       "organizer": {
