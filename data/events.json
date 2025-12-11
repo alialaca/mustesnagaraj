@@ -553,6 +553,46 @@
         "contact": "info@mustesnagaraj.com"
       }
     },
+    {
+      "id": 17,
+      "title": "Balcon Garage Sale",
+      "slug": "balcon-vintage-tasarim-pazari",
+      "description": "Karşıyaka’da dolaplardan çıkan en güzel parçalar, el yapımı tasarımlar ve kahve kokusu aynı gün buluşuyor. \uD83D\uDCBF\uD83D\uDC57\n Renkli ve özgün tasarımlar,takılar, “tek kalmış ama tam benim” dedirten vintage parçalar…\nHem kendine hem sevdiklerine yıl sonu küçük sürprizler yapmak istersen, uğramadan geçme.",
+      "date": "2025-12-20T14:00:00",
+      "endDate": "2025-12-20T21:00:00",
+      "location": {
+        "name": "Le Balcon Cafe",
+        "address": "Bostanlı, 1811. Sk. 31/A, 35590 Karşıyaka/İzmir",
+        "coordinates": {
+          "lat": 38.4624,
+          "lng": 27.0668
+        }
+      },
+      "image": "/images/le-balcon-vintage-pazari.png",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler"
+      ],
+      "categories": ["vintage", "tasarim", "cafe"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+      ],
+      "categories": ["vintage", "tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
