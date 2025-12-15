@@ -13,7 +13,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && tar -zcvf deploy.tar .output/public Dockerfile && caprover deploy -n hetzner -a mustesnagaraj -t deploy.tar && rm deploy.tar"
+    "deploy": "nuxt generate && tar -zcvf deploy.tar .output/public Dockerfile nginx.conf && caprover deploy -n hetzner -a mustesnagaraj -t deploy.tar && rm deploy.tar"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
