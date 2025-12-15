@@ -533,7 +533,7 @@
         }
       },
       "image": "/images/hoi-christmas-market.jpeg",
-      "status": "upcoming",
+      "status": "completed",
       "applicationOpen": false,
       "totalTables": null,
       "availableTables": null,
@@ -609,6 +609,74 @@
       "availableTables": null,
       "tablePrice": null,
       "googleFormUrl": "",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "İkinci el hazineler",
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["vintage", "tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Christmas Bazaar - Karataş",
+      "slug": "haus-pera-karatas-christmas-bazaar",
+      "description": "Christmas ruhu bu yıl Karataş’ta bizimle! \uD83C\uDF84✨\nHaus Pera Coffee – Karataş Şubesinde iki gün boyunca; Christmas Bazaar, tasarım ürünler, ikinci el güzellikler ve mis gibi kahve eşliğinde bol sohbet seni bekliyor.\n",
+      "date": "2025-12-27T13:00:00",
+      "endDate": "2025-12-28T20:00:00",
+      "location": {
+        "name": "Haus Pera Coffee Karataş",
+        "address": "Barbaros, 305. Sk. No: 24, 35260 Konak / İzmir",
+        "coordinates": {
+          "lat": 38.4101,
+          "lng": 27.1220
+        }
+      },
+      "image": "/images/haus-pera-karatas-christmas-bazaar.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/e4KEfVQj635UhSzE7",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "İkinci el hazineler",
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["vintage", "tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 20,
+      "title": "Christmas Bazaar - Buca",
+      "slug": "haus-pera-buca-christmas-bazaar",
+      "description": "Christmas ruhu bu yıl Buca’da bizimle! \uD83C\uDF84✨\nHaus Pera Coffee – Buca Şubesinde iki gün boyunca; Christmas Bazaar, tasarım ürünler, ikinci el güzellikler ve mis gibi kahve eşliğinde bol sohbet seni bekliyor.\n",
+      "date": "2025-12-27T14:00:00",
+      "endDate": "2025-12-28T21:00:00",
+      "location": {
+        "name": "Haus Pera Coffee Buca",
+        "address": "Dumlupınar, 109. Sk. No: 14, 35400 Buca / İzmir",
+        "coordinates": {
+          "lat": 38.4101,
+          "lng": 27.1220
+        }
+      },
+      "image": "/images/haus-pera-buca-christmas-bazaar.jpeg",
+      "status": "upcoming",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/FdRpeKyLCbnoQCnA7",
       "features": [
         "Seçilmiş vintage parçalar",
         "İkinci el hazineler",
