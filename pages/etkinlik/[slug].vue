@@ -2,28 +2,28 @@
   <div v-if="event" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Ana Görsel -->
     <div class="mb-8">
-      <img 
-        :src="event.image" 
-        :alt="event.title" 
+      <img
+        :src="event.image"
+        :alt="event.title"
         class="w-full h-64 md:h-96 object-cover object-top rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
         @click="showImageModal = true"
       >
     </div>
 
     <!-- Image Modal -->
-    <div 
-      v-if="showImageModal" 
+    <div
+      v-if="showImageModal"
       class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
       @click="showImageModal = false"
     >
       <div class="relative w-full h-full flex items-center justify-center">
-        <img 
-          :src="event.image" 
-          :alt="event.title" 
+        <img
+          :src="event.image"
+          :alt="event.title"
           class="max-w-full max-h-full object-contain rounded-lg"
           @click.stop
         >
-        <button 
+        <button
           @click="showImageModal = false"
           class="absolute top-4 right-4 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-opacity-75 transition-all"
         >
@@ -56,7 +56,7 @@
             </svg>
             <div>
               <p class="font-medium">Tarih & Saat</p>
-              <p class="text-gray-600">{{ formatEventDate(event.date) }}</p>
+              <p class="text-gray-600">{{ formatEventDate(event) }}</p>
             </div>
           </div>
           <div class="flex items-center">
@@ -100,7 +100,7 @@
           </div>
           <div class="mt-4">
             <div class="bg-gray-200 rounded-full h-2">
-              <div 
+              <div
                 class="bg-green-600 h-2 rounded-full transition-all duration-300"
                 :style="{ width: `${(event.availableTables / event.totalTables) * 100}%` }"
               ></div>
@@ -135,8 +135,8 @@
 
     <!-- Başvuru Butonu -->
     <div class="text-center">
-      <a 
-        v-if="event.googleFormUrl && event.applicationOpen && !(event.availableTables === 0)"
+      <a
+        v-if="event.googleFormUrl && event.applicationOpen && !(event.availableTables === 0) && eventStatus !== 'completed'"
         :href="event.googleFormUrl"
         target="_blank"
         rel="noopener noreferrer"
@@ -145,6 +145,9 @@
       >
         Masa Başvurusu Yap
       </a>
+      <div v-else-if="eventStatus === 'completed'" class="text-gray-500">
+        Etkinlik tamamlandı
+      </div>
       <div v-else-if="!event.applicationOpen" class="text-gray-500">
         Başvurular kapalı
       </div>
@@ -175,10 +178,15 @@
 
 <script setup>
 const route = useRoute()
-const { getEventBySlug, formatEventDate } = useEvents()
+const { getEventBySlug, formatEventDate, getEventStatus } = useEvents()
 
 const event = computed(() => getEventBySlug(route.params.slug))
 const showImageModal = ref(false)
+
+const eventStatus = computed(() => {
+  if (!event.value) return ''
+  return getEventStatus(event.value)
+})
 
 // Hash routing ile yönlendirme gereksiz, sadece 404 kontrolü yap
 watch(event, (newEvent) => {
@@ -188,15 +196,13 @@ watch(event, (newEvent) => {
 }, { immediate: true })
 
 const statusClass = computed(() => {
-  if (!event.value) return ''
-  
-  switch (event.value.status) {
+  switch (eventStatus.value) {
     case 'upcoming':
       return 'bg-green-100 text-green-800'
-    case 'completed':
-      return 'bg-gray-100 text-gray-800'
     case 'progress':
       return 'bg-blue-100 text-blue-800'
+    case 'completed':
+      return 'bg-gray-100 text-gray-800'
     case 'cancelled':
       return 'bg-red-100 text-red-800'
     default:
@@ -205,9 +211,7 @@ const statusClass = computed(() => {
 })
 
 const statusText = computed(() => {
-  if (!event.value) return ''
-  
-  switch (event.value.status) {
+  switch (eventStatus.value) {
     case 'upcoming':
       return 'Yaklaşan'
     case 'progress':
@@ -235,8 +239,8 @@ const trackApplicationClick = () => {
 useHead(() => ({
   title: event.value ? `${event.value.title} - MüstesnaGaraj` : 'Etkinlik Bulunamadı - MüstesnaGaraj',
   meta: [
-    { 
-      name: 'description', 
+    {
+      name: 'description',
       content: event.value ? event.value.description : 'Aradığınız etkinlik mevcut değil.'
     }
   ]

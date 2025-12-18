@@ -10,8 +10,8 @@
           {{ statusText }}
         </span>
       </div>
-      <p class="text-gray-600 mb-2">{{ formatDate(event.date) }}</p>
-      <p class="text-gray-600 mb-4">{{ event.location }}</p>
+      <p class="text-gray-600 mb-2">{{ formatEventDateShort(event) }}</p>
+      <p class="text-gray-600 mb-4">{{ event.location?.name }}</p>
       <p class="text-gray-700 mb-4">{{ event.description }}</p>
       <div class="flex justify-between items-center">
         <NuxtLink :to="`/etkinlik/${event.slug}`" class="text-purple-600 hover:text-purple-800 font-medium">
@@ -21,8 +21,8 @@
           <span v-if="event.availableSeats" class="text-sm text-gray-500">
             {{ event.availableSeats }} masa müsait
           </span>
-          <a 
-            v-if="event.googleFormUrl && event.status === 'upcoming' && event.applicationOpen"
+          <a
+            v-if="event.googleFormUrl && eventStatus === 'upcoming' && event.applicationOpen"
             :href="event.googleFormUrl"
             target="_blank"
             rel="noopener noreferrer"
@@ -37,6 +37,8 @@
 </template>
 
 <script setup>
+const { getEventStatus, formatEventDateShort } = useEvents()
+
 const props = defineProps({
   event: {
     type: Object,
@@ -44,10 +46,14 @@ const props = defineProps({
   }
 })
 
+const eventStatus = computed(() => getEventStatus(props.event))
+
 const statusClass = computed(() => {
-  switch (props.event.status) {
+  switch (eventStatus.value) {
     case 'upcoming':
       return 'bg-green-100 text-green-800'
+    case 'progress':
+      return 'bg-blue-100 text-blue-800'
     case 'completed':
       return 'bg-gray-100 text-gray-800'
     case 'cancelled':
@@ -58,9 +64,11 @@ const statusClass = computed(() => {
 })
 
 const statusText = computed(() => {
-  switch (props.event.status) {
+  switch (eventStatus.value) {
     case 'upcoming':
       return 'Yaklaşan'
+    case 'progress':
+      return 'Devam Ediyor'
     case 'completed':
       return 'Tamamlandı'
     case 'cancelled':
@@ -69,13 +77,4 @@ const statusText = computed(() => {
       return 'Aktif'
   }
 })
-
-const formatDate = (dateString) => {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('tr-TR', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  })
-}
 </script>
