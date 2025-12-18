@@ -84,7 +84,9 @@ pnpm preview
 ## 🎯 Temel Özellikler
 
 ### Etkinlik Yönetimi
-- **Etkinlik Durumları**: Yaklaşan, tamamlanmış, iptal edilen
+- **Otomatik Durum Hesaplama**: Tarih aralıklarına göre otomatik olarak yaklaşan, devam eden veya tamamlanmış olarak belirlenir
+- **Çoklu Gün Desteği**: Tek veya birden fazla gün süren etkinlikler için esnek tarih yapısı
+- **Akıllı Tarih Gösterimi**: "27-28 Aralık 2025" gibi tarih aralıkları otomatik oluşturulur
 - **SEO Dostu URL'ler**: `/etkinlik/slug-adi` formatında temiz URL yapısı
 - **Dinamik Filtreleme**: Tarih ve durum tabanlı filtreleme
 - **Detaylı Görüntüleme**: Her etkinlik için ayrıntılı bilgi sayfası
@@ -123,9 +125,10 @@ Yeni etkinlik eklemek için `data/events.json` dosyasını düzenleyin:
   "title": "Etkinlik Adı",
   "slug": "etkinlik-adi",
   "description": "Etkinlik açıklaması",
-  "date": "2024-MM-DDTHH:MM:SS",
-  "endDate": "2024-MM-DDTHH:MM:SS",
-  "status": "upcoming",
+  "dates": [
+    {"startDate": "2025-12-27T14:00:00", "endDate": "2025-12-27T21:00:00"},
+    {"startDate": "2025-12-28T14:00:00", "endDate": "2025-12-28T21:00:00"}
+  ],
   "location": {
     "name": "Mekan Adı",
     "address": "Adres",
@@ -152,7 +155,10 @@ Yeni etkinlik eklemek için `data/events.json` dosyasını düzenleyin:
 }
 ```
 
-**Önemli**: `slug` alanı SEO dostu URL'ler için kullanılır. Türkçe karakterler otomatik olarak İngilizce karşılıklarıyla değiştirilir.
+**Önemli Notlar**:
+- `slug` alanı SEO dostu URL'ler için kullanılır. Türkçe karakterler otomatik olarak İngilizce karşılıklarıyla değiştirilir.
+- `dates` dizisi birden fazla gün için ayrı objeler içerir. Tek günlük etkinlikler için tek obje yeterlidir.
+- Etkinlik durumu (`upcoming`, `progress`, `completed`) tarih aralıklarına göre otomatik hesaplanır - manuel belirtmeye gerek yoktur.
 
 ### Stil Değişiklikleri
 Tailwind CSS sınıflarını kullanarak stilleri özelleştirin. Ana renk paleti:

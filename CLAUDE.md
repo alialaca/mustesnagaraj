@@ -73,21 +73,26 @@ pnpm run deploy
 
 ### Data Management
 - **Event Data**: Stored in `data/events.json` containing:
-  - Event details (title, description, dates, location)
-  - Status (upcoming, completed, cancelled)
+  - Event details (id, title, slug, description, location)
+  - **Dates array** - Multiple date objects with `startDate` and `endDate` for multi-day events
   - Table information (count, pricing, availability)
   - Categories and features
   - Application status for vendors
+  - **Note**: Status is calculated automatically based on dates, not stored in JSON
 
 - **useEvents Composable**: Provides event filtering and formatting utilities:
-  - `getUpcomingEvents()` - Future events with 'upcoming' status
-  - `getCompletedEvents()` - Past/completed events
+  - `getUpcomingEvents()` - Future events (calculated from dates)
+  - `getCompletedEvents()` - Past events (calculated from dates)
+  - `getInProgressEvents()` - Currently ongoing events
   - `getEventById(id)` - Single event retrieval by ID
   - `getEventBySlug(slug)` - Single event retrieval by SEO-friendly slug
   - `getEventsByCategory(category)` - Category-based filtering
-  - `getEventsByStatus(status)` - Status-based filtering
-  - `formatEventDate()` - Turkish locale date formatting
-  - `formatEventDateShort()` - Short date format
+  - `getEventsByStatus(status)` - Status-based filtering ('upcoming', 'progress', 'completed', 'all')
+  - `getEventStatus(event)` - Calculate event status from dates automatically
+  - `formatEventDate(event)` - Full date format with time range (e.g., "27-28 Aralık 2025, 14:00 - 21:00")
+  - `formatEventDateShort(event)` - Short date format for cards (e.g., "27-28 Aralık 2025")
+  - `getFirstStartDate(event)` - Get first start date from dates array
+  - `getLastEndDate(event)` - Get last end date from dates array
   - `createSlug(title)` - Generate SEO-friendly slug from title
 
 ### Routing & Navigation
@@ -129,9 +134,13 @@ pnpm run deploy
 - Event detail pages with full information
 
 ### Event Status Management
-- Three states: upcoming, completed, cancelled
-- Color-coded status indicators
-- Automatic date-based filtering
+- **Automatic Status Calculation**: Status is calculated from `dates` array, not stored in JSON
+- Four states: `upcoming` (future), `progress` (ongoing), `completed` (past), `cancelled`
+- Color-coded status indicators (green=upcoming, blue=progress, gray=completed, red=cancelled)
+- Status calculation logic in `getEventStatus(event)`:
+  - `upcoming`: Current time is before first startDate
+  - `progress`: Current time is between first startDate and last endDate
+  - `completed`: Current time is after last endDate
 - Application status for vendor recruitment
 
 ### Responsive Design
@@ -155,13 +164,21 @@ pnpm run deploy
 
 ### Event Data Structure
 Each event in `events.json` contains:
-- Basic info (id, title, slug, description, dates)
+- Basic info (id, title, slug, description)
+- **dates array** - Array of date objects, each with `startDate` and `endDate` in ISO format:
+  ```json
+  "dates": [
+    {"startDate": "2025-12-27T14:00:00", "endDate": "2025-12-27T21:00:00"},
+    {"startDate": "2025-12-28T14:00:00", "endDate": "2025-12-28T21:00:00"}
+  ]
+  ```
 - **SEO-friendly slug** - Used for URL generation (e.g., "event-title-slug")
 - Location with coordinates
-- Status and application availability
-- Table pricing and availability
+- Application availability (applicationOpen, googleFormUrl)
+- Table pricing and availability (totalTables, availableTables, tablePrice)
 - Categories and features array
 - Organizer contact information
+- **Note**: No `status` field - calculated automatically from dates
 
 ### SEO-Friendly URLs
 - Events use slug-based URLs instead of numeric IDs
