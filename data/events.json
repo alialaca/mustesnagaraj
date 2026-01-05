@@ -695,6 +695,71 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 21,
+      "title": "Depo İndirimi",
+      "slug": "kirkmerdiven-depo-indirimi",
+      "description": "Garaj İndirimi ile yeni yılın ilk etkinliğinde buluşuyoruz! ✨\nKırkmerdiven’in o kendine has tarihi dokusu, taş sokakların sakinliği ve mahalle ruhu eşliğinde; yeni yıla ferah bir başlangıç yapıyoruz. Bu kez sadece alışveriş değil, biraz da “yenilenme” hissi var: fazlalıkları elden çıkar, yeni bir hikâyeye yer aç. \uD83E\uDDE1",
+      "dates": [
+        {"startDate": "2026-01-18T14:00:00", "endDate": "2026-01-18T21:00:00"}
+      ],
+      "location": {
+        "name": "Kırkmerdiven",
+        "address": "Karataş, Turgut Reis Mah.\n305. Sk. No:59/A, 35280\nKonak / İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/kirkmerdiven-depo-indirimi.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": 0,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Gardırop keşifleri",
+        "evde duruyor ama kullanılmayanlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["depo","yeniden kullanım", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Yerel Tasarımcılar",
+      "slug": "la-loba-yerel-tasarimcilar",
+      "description": "Geçen yıl ilkini yaptığımız bu buluşmanın ikincisinde de yine aynı heyecanla La Loba’da bir araya geliyoruz. \uD83E\uDD0D\nLa Loba Coffee Collective’in o kendine has mimarisi, sokaktan içeri girer girmez hissettiren sıcaklığı ve “kolektif” ruhu; bu etkinliği sadece bir pazar olmaktan çıkarıp tanışma, bağ kurma ve birlikte üretimi destekleme alanına dönüştürüyor.\n\nBu etkinlikte raflarda “hazır ürün” değil; emeğin izi olan işler yer alacak. Yerel üreticiler ve tasarımcılar… Kısacası “üreten ve ürettiğini satan” insanların hikâyeleri. Gezmek, keşfetmek, sohbet etmek ve bir parçayı seçerken onun arkasındaki kişiyi de tanımak isteyen herkesi bekliyoruz. ✨",
+      "dates": [
+        {"startDate": "2026-01-25T15:00:00", "endDate": "2026-01-25T22:00:00"}
+      ],
+      "location": {
+        "name": "La Loba Coffee Collective",
+        "address": "Adatepe Mah. 4/1 Sk No:4 Buca/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/la-loba-yerel-tasarimcilar.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/bAYaG2nW9231V7Cs7",
+      "features": [
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
