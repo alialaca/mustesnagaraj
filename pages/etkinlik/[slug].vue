@@ -136,7 +136,7 @@
     <!-- Başvuru Butonu -->
     <div class="text-center">
       <a
-        v-if="event.googleFormUrl && event.applicationOpen && !(event.availableTables === 0) && eventStatus !== 'completed'"
+        v-if="event.googleFormUrl && event.applicationOpen && !(event.availableTables === 0) && eventStatus === 'upcoming'"
         :href="event.googleFormUrl"
         target="_blank"
         rel="noopener noreferrer"
@@ -147,6 +147,9 @@
       </a>
       <div v-else-if="eventStatus === 'completed'" class="text-gray-500">
         Etkinlik tamamlandı
+      </div>
+      <div v-else-if="eventStatus === 'progress'" class="text-gray-500">
+        Etkinlik devam ediyor
       </div>
       <div v-else-if="!event.applicationOpen" class="text-gray-500">
         Başvurular kapalı
