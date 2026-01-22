@@ -748,7 +748,7 @@
       "image": "/images/la-loba-yerel-tasarimcilar.png",
       "applicationOpen": true,
       "totalTables": null,
-      "availableTables": null,
+      "availableTables": 0,
       "tablePrice": null,
       "googleFormUrl": "https://forms.gle/bAYaG2nW9231V7Cs7",
       "features": [
@@ -756,6 +756,40 @@
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
       "categories": ["tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Vintage ve Tasarım Pazarı",
+      "slug": "ru-vintage-ve-tasarim-pazari",
+      "description": "Urla’da ilk kez buluşuyoruz ! ✨ Müstesna Garaj’ın “pazar” dediği şey; tezgâhtan ibaret değil, hikâyelerin, iyi parçaların ve gerçek sohbetlerin bir araya geldiği bir alan. Bu kez rotamız Urla: sokaklarıyla, enerjisiyle, ruhuyla tam da bize yakışan bir lokasyon .“Urla’nın kahve durağı RU Coffee House’un #BeBrewBake ruhunda; kahvemizi alıp hikâyelere karışıyoruz.”\n Vintage parçalar, seçilmiş tasarımlar, yerel üretimin emeği… Her şey aynı yerde: keşfetmek için, ilham almak için, “bunu ben buldum” diye sevinmek için. Sürdürülebilir seçimleri çoğaltırken, aynı anda şehirle ve birbirimizle bağ kuruyoruz.",
+      "dates": [
+        {"startDate": "2026-02-08T13:00:00", "endDate": "2026-02-08T20:00:00"}
+      ],
+      "location": {
+        "name": "Ru Coffee House",
+        "address": "Yeraltı Mahallesi, Park Sokak No:21 Urla/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/ru-vintage-ve-tasarim-pazari.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/GAgDxsSrEQ1wNBdz8",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "El emeği tasarımlar",
+        "İkinci el hazineler",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "vintage", "coffee"],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
