@@ -794,6 +794,74 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 24,
+      "title": "Dijital Pazarlama Temel Eğitimi",
+      "slug": "dijital-pazarlama-temel-egitimi",
+      "description": "Üretiyoruz, stand açıyoruz, emek veriyoruz… ama dijital taraf bazen “nereden başlayacağım?” diye düğüm olabiliyor.\n\n7 Şubat’ta La Loba Coffee Collective’te Müstesna Garaj olarak, “Üreticiler İçin Başlangıç Düzeyi Dijital Pazarlama Eğitimi” serimizin ilk buluşmasını yüz yüze başlatıyoruz.\nInstagram’ı, içerik fikrini, görünür olmayı; basit bir planla sürdürülebilir hâle getireceğiz. Jargon yok, gerçekten işine yarayan, uygulanabilir bir başlangıç var.",
+      "dates": [
+        {"startDate": "2026-02-07T12:00:00", "endDate": "2026-02-07T15:00:00"}
+      ],
+      "location": {
+        "name": "La Loba Coffee Collective",
+        "address": "Adatepe Mah. 4/1 Sk No:4 Buca/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/dijital-pazarlama-temel-egitimi.png",
+      "applicationOpen": true,
+      "totalTables": 30,
+      "availableTables": 25,
+      "tablePrice": 0,
+      "googleFormUrl": "https://forms.gle/WmbzGbzwaCGSuyYU8",
+      "features": [
+        "Güven inşa etme",
+        "Dijital pazarlama",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "pazarlama", "eğitim", "kahve"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Aşk ve Yalnızlık Pazarı",
+      "slug": "ask-ve-yalnizlik-pazari",
+      "description": "Bazı mekânlar vardır; duvarı sadece duvar değildir, hafızadır. Haus Pera Buca’nın geçmişi de öyle… Eski bir zeytinyağı sıkım fabrikası; yılların emeğini, kokusunu, ritmini taşıyor. Biz de Müstesna Garaj olarak o tarihin içine iki günlüğüne bir pazar değil, bir buluşma alanı kuruyoruz. \uD83C\uDF3F\n\nAşk ve Yalnızlık Pazarında mesele sadece alışveriş değil: tanışmak, sohbet etmek, birbirini “görmek”, aynı kalabalığın içinde bile bağ kurmak. İkinci elin hikâyesiyle, tasarımın emeğiyle, ileri dönüşümün umut veren dönüşümüyle… Her stand biraz “ben buradayım” diyor; her ziyaretçi o hikâyenin ortağı oluyor.",
+      "dates": [
+        {"startDate": "2026-02-14T14:00:00", "endDate": "2026-02-14T21:00:00"},
+        {"startDate": "2026-02-14T15:00:00", "endDate": "2026-02-15T21:00:00"}
+      ],
+      "location": {
+        "name": "Haus Pera Coffee Buca",
+        "address": "Dumlupınar, 109. Sk. No: 14, 35400 Buca / İzmir",
+        "coordinates": {
+          "lat": 38.4101,
+          "lng": 27.1220
+        }
+      },
+      "image": "/images/ask-ve-yalnizlik-pazari.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/orpFiagTkTHeo8Ya9",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "İkinci el hazineler",
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["vintage", "tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
