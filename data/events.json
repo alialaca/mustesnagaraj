@@ -862,6 +862,76 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 26,
+      "title": "Depo İndirimi",
+      "slug": "hoi-garaj-satisi-subat-2026",
+      "description": "Vintage, ikinci el, aksesuar ve takı…\nHepsi aynı heyecanla, aynı etikette buluşuyor.\nHem bütçeye iyi gelen, hem de “modaya değil, hikâyeye yatırım” dediğimiz o tanıdık Müstesna hissiyle. \uD83C\uDF3F",
+      "dates":  [
+        {"startDate": "2026-02-22T13:00:00", "endDate": "2026-02-22T21:00:00"}
+      ],
+      "location": {
+        "name": "Hoi Coffee & Plants",
+        "address": "Barbaros Mahallesi,331. Sk No:3 D.1, 35260 Konak/İzmir",
+        "coordinates": {
+          "lat": 38.4337,
+          "lng": 27.1444
+        }
+      },
+      "image": "/images/hoi-garage-sale-subat-2026.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Yaratıcı fikirler",
+        "Bağımsız sanatçıların eserleri",
+        "Vintage ve tasarım ürünleri",
+        "Özgün işler",
+        "Huzurlu atmosfer",
+        "Bitki çeşitleri"
+      ],
+      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 27,
+      "title": "Vintage ve Tasarım Pazarı",
+      "slug": "pick-vintage-ve-tasarim-pazari",
+      "description": "28 Şubat’ta yine bir araya geliyoruz \uD83C\uDF3F\uD83E\uDDE1\nMüstesna Garaj olarak Pick Coffee House’ta kurduğumuz bu buluşmada iki şeyi aynı anda kutluyoruz:\n♻\uFE0F İkinci elin geleceğe iyi gelen, nazik tarafını…\n✨ Yerel tasarımcıların üretim cesaretini, yaratıcılığını ve “burada, şimdi” kurduğumuz bağı…\n\nBir parça seçerken sadece “güzel”i değil, hikâyeyi de arıyoruz:\nKimi parça yılların izini taşıyor, kimi parça daha yeni doğmuş bir fikrin ürünü. Ortak noktaları aynı: özen, emek ve sürdürülebilir bir bakış.\n",
+      "dates": [
+        {"startDate": "2026-02-28T14:00:00", "endDate": "2026-02-28T21:00:00"}
+      ],
+      "location": {
+        "name": "Pick. Coffee House",
+        "address": "Nebil Susup Sk. No:149, 35590 Karşıyaka/İzmir",
+        "coordinates": {
+          "lat": 38.4557897,
+          "lng": 27.0990839
+        }
+      },
+      "image": "/images/pick-vintage-ve-tasarim-pazari.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "El emeği tasarımlar",
+        "İkinci el hazineler",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "vintage", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
