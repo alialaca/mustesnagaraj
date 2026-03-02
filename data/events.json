@@ -932,6 +932,40 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+    },
+    {
+      "id": 28,
+      "title": "Mor Panayırı",
+      "slug": "la-loba-mor-panayiri",
+      "description": "\uD83D\uDC9C\nBir araya gelince çoğalan, temas edince güçlenen çok\nönemli bir şey var: DAYANIŞMA ☀\uFE0F\n7 Mart’ta tam da bunun için buluşuyoruz. Bu panayır\nbir “etkinlik” olmanın ötesinde; kadınların emeğini,\nsesini, varlığını görünür kılan, birbirine omuz veren bir\ntopluluk alanı. Ve bu kez temamız belli: Mor. (Mor giy,\ndayanışmaya gel! \uD83D\uDC9C)",
+      "dates": [
+        {"startDate": "2026-03-07T15:00:00", "endDate": "2026-03-07T22:00:00"}
+      ],
+      "location": {
+        "name": "La Loba Coffee Collective",
+        "address": "Adatepe Mah. 4/1 Sk No:4 Buca/İzmir",
+        "coordinates": {
+          "lat": 38.38246597692259,
+          "lng": 27.180237976158907
+        }
+      },
+      "image": "/images/la-loba-mor-panayiri.jpg",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/NQ9Lb1a1827FJ6NYA",
+      "features": [
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler",
+        "Kulağınıza iyi gelecek müzik",
+        "Yeni sahiplerini arayan ikinci el hazineler"
+      ],
+      "categories": ["tasarim", "coffee", "panayir", "dayanışma"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
