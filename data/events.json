@@ -966,6 +966,72 @@
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
+""    },
+    {
+      "id": 29,
+      "title": "Garaj İndirimi",
+      "slug": "pick-garaj-indirimi",
+      "description": "Dolabına “iyi ki” dedirtecek parçalarla buluşuyoruz: vintage, ikinci el, takı, aksesuar ve yerel tasarımcılar…\nHer Şey 100₺ ✨\n\nBu gün biraz “gezine gezine” keşfetme günü: rafların arasında kaybol, bir kahve iç, yeni bir hikâyeye denk gel.",
+      "dates": [
+        {"startDate": "2026-03-14T14:00:00", "endDate": "2026-03-14T20:00:00"}
+      ],
+      "location": {
+        "name": "Pick. Coffee House",
+        "address": "Nebil Susup Sk. No:149, 35590 Karşıyaka/İzmir",
+        "coordinates": {
+          "lat": 38.4557897,
+          "lng": 27.0990839
+        }
+      },
+      "image": "/images/pick-garaj-indirimi.jpg",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": null,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/EPavMCvJspm4iHzo9",
+      "features": [
+        "Seçilmiş vintage parçalar",
+        "El emeği tasarımlar",
+        "İkinci el hazineler",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "vintage", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
+    },
+    {
+      "id": 30,
+      "title": "Garaj İndirimi",
+      "slug": "le-balcon-garaj-indirimi",
+      "description": "Dolaplarda yeni bir yer açmanın, uzun zamandır beklenen parçalarla karşılaşmanın ve güzel şeyleri uygun fiyatlarla bulmanın tam zamanı.\n\n15 Mart’ta Le Balcon’da \nvintage, ikinci el, takı, aksesuar ve yerel tasarım ürünleriyle dopdolu bir gün bizi bekliyor.\nÜstelik her şey 100 TL.\n\nBiraz bakınmak, biraz keşfetmek, biraz da içinize sinen parçalarla eve dönmek isterseniz hepinizi bekleriz.\nSevdiğiniz bir arkadaşınızı alın, gelin; birlikte hem uygun fiyatlı hem de keyifli bir gün geçirelim. \uD83E\uDDE1",
+      "dates": [
+        {"startDate": "2026-03-15T14:00:00", "endDate": "2026-03-15T20:00:00"}
+      ],
+      "location": {
+        "name": "Le Balcon Cafe",
+        "address": "Bostanlı, 1811. Sk. 31/A, 35590 Karşıyaka/İzmir",
+        "coordinates": {
+          "lat": 38.4624,
+          "lng": 27.0668
+        }
+      },
+      "image": "/images/le-balcon-garaj-indirimi.png",
+      "applicationOpen": true,
+      "totalTables": null,
+      "availableTables": 0,
+      "tablePrice": null,
+      "googleFormUrl": "https://forms.gle/Xt9uC3jX51f4bq73A",
+      "features": [
+        "El emeği tasarımlar",
+        "Sıcak atmosfer, tanışmalar ve sohbetler"
+      ],
+      "categories": ["tasarim", "coffee"],
+      "organizer": {
+        "name": "MüstesnaGaraj",
+        "contact": "info@mustesnagaraj.com"
+      }
     }
   ]
 }
