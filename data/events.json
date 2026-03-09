@@ -6,7 +6,10 @@
       "slug": "zoe-yerel-tasarimcilar-seramik-giyim-taki-aksesuar",
       "description": "Yerel tasarımcıların birbirinden özgün tasarımlarını keşfetmek için Zoë Coffee'de buluşuyoruz. El yapımı takılar, seramikler, tekstil ürünleri, aksesuarlar ve çok daha fazlası seni bekliyor!\n\nHem alışveriş hem sohbet hem de güzel bir atmosfer için seni de aramızda görmeyi çok isteriz. 🌿✨",
       "dates": [
-        {"startDate": "2024-07-06T11:00:00", "endDate": "2024-07-06T21:00:00"}
+        {
+          "startDate": "2024-07-06T11:00:00",
+          "endDate": "2024-07-06T21:00:00"
+        }
       ],
       "location": {
         "name": "Zoë Coffee",
@@ -27,7 +30,12 @@
         "Özgün giyim tasarımları",
         "Takı ve aksesuar atölyeleri"
       ],
-      "categories": ["tasarım", "seramik", "giyim", "takı"],
+      "categories": [
+        "tasarım",
+        "seramik",
+        "giyim",
+        "takı"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -39,7 +47,10 @@
       "slug": "kirk-merdiven-2-el-ve-vintage-depo-satisi",
       "description": "İzmir'de ikinci el ve vintage severler için kaçırılmayacak bir Depo Satışı geliyor! \nFiyatlar sabit, ürünler sınırlı! 🧥👖👚\n\n💸 100₺ | 150₺ | 200₺ | 250₺\nHer şey çok uygun fiyatlarla, dolabını yenilemek için harika bir fırsat!",
       "dates": [
-        {"startDate": "2024-07-12T15:00:00", "endDate": "2024-07-12T21:00:00"}
+        {
+          "startDate": "2024-07-12T15:00:00",
+          "endDate": "2024-07-12T21:00:00"
+        }
       ],
       "location": {
         "name": "Kırkmerdiven",
@@ -61,7 +72,11 @@
         "Geniş ürün yelpazesi",
         "Canlı müzik performansı"
       ],
-      "categories": ["vintage", "2. el", "depo satış"],
+      "categories": [
+        "vintage",
+        "2. el",
+        "depo satış"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -73,8 +88,14 @@
       "slug": "havagazi-2-el-ve-tasarim-festivali",
       "description": "İzmir'in kalbinde, geçmişin ruhunu geleceğin dokunuşlarıyla buluşturan benzersiz bir festivaldeyiz! İkinci el modanın sürdürülebilir gücüyle, ilham verici tasarımcılar bir arada!\nGiysi, aksesuar, obje, sanat ve daha fazlası bu festivalde sizi bekliyor.\nDJ Performansları, sokak lezzetleri ve sıcak yaz akşamlarının eşsiz enerjisiyle dolu iki gün için takviminize not edin.",
       "dates": [
-        {"startDate": "2025-08-16T14:00:00", "endDate": "2025-08-16T23:00:00"},
-        {"startDate": "2025-08-17T14:00:00", "endDate": "2025-08-17T23:00:00"}
+        {
+          "startDate": "2025-08-16T14:00:00",
+          "endDate": "2025-08-16T23:00:00"
+        },
+        {
+          "startDate": "2025-08-17T14:00:00",
+          "endDate": "2025-08-17T23:00:00"
+        }
       ],
       "location": {
         "name": "Tarihi Havagazı Fabrikası Kültür Merkezi",
@@ -97,7 +118,13 @@
         "Kültür ve sanat etkinlikleri",
         "Canlı DJ performansları"
       ],
-      "categories": ["festival", "2. el", "tasarım", "vintage", "stickjam"],
+      "categories": [
+        "festival",
+        "2. el",
+        "tasarım",
+        "vintage",
+        "stickjam"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -109,7 +136,10 @@
       "slug": "monk-antikacilar-carsisi",
       "description": "Kemeraltı antikacılar çarşısında Monk Commutiy'ile birlikte düzenleyeceğimiz Vintage Pazarı'nda, geçmişin ruhunu taşıyan eşsiz parçalar seni bekliyor! \n\nTarihi atmosferde, el yapımı takılardan vintage giyime, nostaljik objelerden antika kitaplara kadar geniş bir yelpazede ürünler seni bekliyor. \n\nDJ performansları eşliğinde gerçekleştirilecek bu etkinlikte, hem alışveriş yapabilir hem de keyifli vakit geçirebilirsin. \n\nTarihi Kemeraltı Çarşısı'nın büyülü atmosferinde, geçmişin izlerini taşıyan bu eşsiz pazara davetlisiniz!",
       "dates": [
-        {"startDate": "2025-08-23T13:00:00", "endDate": "2025-08-23T19:30:00"}
+        {
+          "startDate": "2025-08-23T13:00:00",
+          "endDate": "2025-08-23T19:30:00"
+        }
       ],
       "location": {
         "name": "Monk Community /Antikacılar Çarşısı",
@@ -130,7 +160,12 @@
         "Tasarımcı ürünleri",
         "Canlı DJ performansları"
       ],
-      "categories": ["2. el", "tasarım", "vintage", "dj performansı"],
+      "categories": [
+        "2. el",
+        "tasarım",
+        "vintage",
+        "dj performansı"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -142,7 +177,10 @@
       "slug": "artistalley-antikacilar-carsisi",
       "description": "Bizim için \"Pazar\" sadece alışveriş değil; bir buluşma alanı. Bu yüzden her etkinliğimizde sınırlı kontenjanla ücretsiz sanatçı masası açıyoruz. Önceliğimiz üretimiyle söz söyleyen bağımsız sanatçılar, yeni hikayeler, sürdürebilir bakış. Çizgini, sesini, fikrini ortaya koy!",
       "dates": [
-        {"startDate": "2025-08-23T13:00:00", "endDate": "2025-08-23T19:30:00"}
+        {
+          "startDate": "2025-08-23T13:00:00",
+          "endDate": "2025-08-23T19:30:00"
+        }
       ],
       "location": {
         "name": "Monk Community /Antikacılar Çarşısı",
@@ -164,7 +202,11 @@
         "Bağımsız sanatçıların eserleri",
         "Canlı DJ performansları"
       ],
-      "categories": ["resim", "sanat", "dj performansı"],
+      "categories": [
+        "resim",
+        "sanat",
+        "dj performansı"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -176,7 +218,10 @@
       "slug": "zoe-vintage-ve-tasarim-pazari",
       "description": "Geçmişin ruhunu taşıyan seçili vintage giyim parçaları ve yerel tasarımcıların özgün işleri Zoë Cafe'nin huzurlu atmosferinde sizlerle buluşuyor. 🧥👗🎨\n\nBahçede kahvenizi yudumlarken hem zamansız parçaları keşfedin hem de yaratıcı tasarımcıların hikâyelerine tanıklık edin.",
       "dates": [
-        {"startDate": "2025-09-20T14:00:00", "endDate": "2025-09-20T21:30:00"}
+        {
+          "startDate": "2025-09-20T14:00:00",
+          "endDate": "2025-09-20T21:30:00"
+        }
       ],
       "location": {
         "name": "Zoë Coffee",
@@ -199,7 +244,11 @@
         "Özgün işler",
         "Huzurlu atmosfer"
       ],
-      "categories": ["vintage", "tasarim", "cafe"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -211,7 +260,10 @@
       "slug": "zoe-vintage-ve-tasarim-pazari-11-ekim",
       "description": "11 Ekim'de Zoe'de buluşuyoruz! 🛍️\nKıyafetler, aksesuarlar, tasarımlar, kahve kokusu ve bol sohbet bir arada olacak. ☕🍰\n\nSaat 14:00'ten 21:00'e kadar uğra, bir şeyler keşfet, yeni hikâyeler biriktir. ✨",
       "dates": [
-        {"startDate": "2025-10-11T14:00:00", "endDate": "2025-10-11T21:00:00"}
+        {
+          "startDate": "2025-10-11T14:00:00",
+          "endDate": "2025-10-11T21:00:00"
+        }
       ],
       "location": {
         "name": "Zoë Coffee",
@@ -234,7 +286,11 @@
         "Özgün işler",
         "Huzurlu atmosfer"
       ],
-      "categories": ["vintage", "tasarim", "cafe"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -246,7 +302,10 @@
       "slug": "hoi-slow-market",
       "description": "19 Ekim'de Vintage ve Bitki Pazarı için buluşuyoruz 🌿👗\nVintage parçalar, bitkiler, el emeği tasarımlar ve keyifli bir atmosfer seni bekliyor. Gün boyu hem alışveriş yapabilir hem de kahveni yudumlarken standları gezip yeni keşifler yapabilirsin.\n\n📍 14:00 – 21:00 arası HOI Coffee'deyiz.\nGel, birlikte bu keyifli günü paylaşalım 💚",
       "dates": [
-        {"startDate": "2025-10-19T14:00:00", "endDate": "2025-10-19T21:00:00"}
+        {
+          "startDate": "2025-10-19T14:00:00",
+          "endDate": "2025-10-19T21:00:00"
+        }
       ],
       "location": {
         "name": "Hoi Coffee",
@@ -270,7 +329,12 @@
         "Huzurlu atmosfer",
         "Bitki çeşitleri"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "bitki"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -282,7 +346,10 @@
       "slug": "kirk-merdiven-vintage-depo-satisi",
       "description": "26 Ekim Pazar günü Kırkmerdiven'de buluşuyoruz! 🎉\nMüstesna Garaj'ın en sevilen etkinliklerinden biri olan Vintage Depo Satışı'nın ikincisini de, ilki gibi Kırkmerdiven'de yapıyoruz. \n\n👗 Gardıroplar hikâyelerle dolacak çünkü her şey sadece 100 TL!\n🌿 Gel, keşfet, seç ve kendi tarzını yarat.\n\nTarihi şimdiden not et: 26 Ekim, 14:00-20:30 Pazar – Kırkmerdiven\nSıcak bir pazar günü, vintage parçalar ve bolca sürpriz seni bekliyor. 💛",
       "dates": [
-        {"startDate": "2025-10-26T14:00:00", "endDate": "2025-10-26T20:30:00"}
+        {
+          "startDate": "2025-10-26T14:00:00",
+          "endDate": "2025-10-26T20:30:00"
+        }
       ],
       "location": {
         "name": "Kırkmerdiven",
@@ -303,7 +370,11 @@
         "Uygun fiyatlı ürünler",
         "Geniş ürün yelpazesi"
       ],
-      "categories": ["vintage", "2. el", "depo satış"],
+      "categories": [
+        "vintage",
+        "2. el",
+        "depo satış"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -315,9 +386,18 @@
       "slug": "zoe-halloween-bazaar",
       "description": "🎃 Halloween Bazaar Başlıyor! 🎃\n\n31 Ekim – 2 Kasım tarihlerinde, tam 3 gün boyunca Zoë'de buluşuyoruz!\nSaat 14:00 – 21:00 arasında, hem keyifli hem de biraz ürkütücü bir atmosfer seni bekliyor. 👻✨\n\n🧥 Vintage parçalar ve farklı zevklere hitap eden tasarım stantları\n🎭 Yaratıcılığını konuşturabileceğin kostüm yarışması\n🖌 Katılabileceğin eğlenceli atölyeler\n📸 Unutulmaz kareler için özel hazırlanmış Halloween fotoğraf köşesi\n🥂 Etkinliğe özel hazırlanmış Halloween menüsü\n\nBiraz ilham, biraz sürpriz, bolca keyif için seni de bekliyoruz.\nKostümünü giy, arkadaşlarını topla ve bu deneyimi kaçırma! 🌙🦇",
       "dates": [
-        {"startDate": "2025-10-31T14:00:00", "endDate": "2025-10-31T21:00:00"},
-        {"startDate": "2025-11-01T14:00:00", "endDate": "2025-11-01T21:00:00"},
-        {"startDate": "2025-11-02T14:00:00", "endDate": "2025-11-02T21:00:00"}
+        {
+          "startDate": "2025-10-31T14:00:00",
+          "endDate": "2025-10-31T21:00:00"
+        },
+        {
+          "startDate": "2025-11-01T14:00:00",
+          "endDate": "2025-11-01T21:00:00"
+        },
+        {
+          "startDate": "2025-11-02T14:00:00",
+          "endDate": "2025-11-02T21:00:00"
+        }
       ],
       "location": {
         "name": "Zoë Coffee",
@@ -341,7 +421,14 @@
         "Halloween menüsü",
         "Halloween fotoğraf köşesi"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "halloween", "atölye", "kostüm"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "halloween",
+        "atölye",
+        "kostüm"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -353,7 +440,10 @@
       "slug": "la-loba-vintage-ve-tasarim-pazari",
       "description": "Müstesna Garaj olarak ilk kez Buca'dayız ve seni çok özel bir buluşmaya davet ediyoruz:\nVintage ve Tasarım Pazarı 🎽✨La Loba, Buca'nın içinde saklı kalmış gibi duran, karakteri olan, mimarisiyle ilk andan itibaren 'burada vakit geçirmek istiyorum' dedirten bir yer. Yüksek tavanlar, dokusu korunmuş detaylar, kahve kokusu ve ışığın içeri düşüşü… Orada olmak bile tek başına keyif. Biz de tam o yüzden ilk Buca etkinliğimizi La Loba'da yapmak istedik 💛\n\nGel, kahveni al, standları gez, güzel insanlarla tanış, belki dolabına yeni bir hikâye ekle. Bu sadece bir pazar değil; hafif hafif müzik eşliğinde, yavaş akan, iyi hissettiren bir gün.\n\nBuca'da buluşalım mı? 🌿☕🕯️",
       "dates": [
-        {"startDate": "2025-11-15T14:00:00", "endDate": "2025-11-15T21:00:00"}
+        {
+          "startDate": "2025-11-15T14:00:00",
+          "endDate": "2025-11-15T21:00:00"
+        }
       ],
       "location": {
         "name": "La Loba Coffee Collective",
@@ -376,7 +466,12 @@
         "Sıcak atmosfer, tanışmalar ve sohbetler",
         "Dj performansı"
       ],
-      "categories": ["vintage", "tasarim", "coffee", "dj performans"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "coffee",
+        "dj performans"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -388,7 +483,10 @@
       "slug": "hoi-garaj-satisi",
       "description": "Her şey 100₺ 💥\nDolap temizliği yapıyoruz ama bu sefer birlikte!\n8 Kasım 2025'te Hoi'de mini bir Garaj Satışı kuruyoruz. Vintage parçalar, şirin takılar, el yapımı küçük obje ve aksesuarlar… Hepsi tek fiyat: 100₺ 🧡",
       "dates": [
-        {"startDate": "2025-11-08T14:00:00", "endDate": "2025-11-08T21:00:00"}
+        {
+          "startDate": "2025-11-08T14:00:00",
+          "endDate": "2025-11-08T21:00:00"
+        }
       ],
       "location": {
         "name": "Hoi Coffee & Plants",
@@ -412,7 +510,12 @@
         "Huzurlu atmosfer",
         "Bitki çeşitleri"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "bitki"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -424,7 +527,10 @@
       "slug": "bunu-giyecek-yerim-yok-partisi",
       "description": "'Bunu Giyecek Yerim Yok' Partisi; dolapta bekleyen, bir türlü giyemediğin ama çok sevdiğin parçaların sahneye çıktığı eğlenceli bir ikinci el buluşması.",
       "dates": [
-        {"startDate": "2025-11-09T14:00:00", "endDate": "2025-11-09T21:00:00"}
+        {
+          "startDate": "2025-11-09T14:00:00",
+          "endDate": "2025-11-09T21:00:00"
+        }
       ],
       "location": {
         "name": "Zoë Coffee",
@@ -446,7 +552,12 @@
         "Vintage ve tasarım ürünleri",
         "Özgün işler"
       ],
-      "categories": ["vintage", "tasarim", "tcafe", "takas"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "tcafe",
+        "takas"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -458,8 +569,14 @@
       "slug": "resmo-christmas-garage-sale",
       "description": "Müstesna Garaj olarak, Bornova'da ilk kez Christmas temalı bir Garage Sale yapıyoruz! 🎄✨\n\nSıcacık kahve kokusunun yayıldığı Resmo Roasting Co.'da, yılbaşı ruhunu dolaplarımızdaki parçalarla buluşturuyoruz.\nKazaklar, elbiseler, ceketler, minik sürprizler… Ne bulursan HER ŞEY 100 TL! 🔥",
       "dates": [
-        {"startDate": "2025-11-29T14:00:00", "endDate": "2025-11-29T21:00:00"},
-        {"startDate": "2025-11-30T14:00:00", "endDate": "2025-11-30T21:00:00"}
+        {
+          "startDate": "2025-11-29T14:00:00",
+          "endDate": "2025-11-29T21:00:00"
+        },
+        {
+          "startDate": "2025-11-30T14:00:00",
+          "endDate": "2025-11-30T21:00:00"
+        }
       ],
       "location": {
         "name": "Resmo Roasting Co.",
@@ -481,7 +598,12 @@
         "Vintage ve tasarım ürünleri",
         "Özgün işler"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "garage sale"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "garage sale"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -493,7 +615,10 @@
       "slug": "balcon-garage-sale",
       "description": "Müstesna Garaj olarak, Bornova'da ilk kez Christmas temalı bir Garage Sale yapıyoruz! 🎄✨\n\nSıcacık kahve kokusunun yayıldığı Resmo Roasting Co.'da, yılbaşı ruhunu dolaplarımızdaki parçalarla buluşturuyoruz.\nKazaklar, elbiseler, ceketler, minik sürprizler… Ne bulursan HER ŞEY 100 TL! 🔥",
       "dates": [
-        {"startDate": "2025-12-06T14:00:00", "endDate": "2025-12-06T21:00:00"}
+        {
+          "startDate": "2025-12-06T14:00:00",
+          "endDate": "2025-12-06T21:00:00"
+        }
       ],
       "location": {
         "name": "Le Balcon Cafe",
@@ -515,7 +640,12 @@
         "Vintage ve tasarım ürünleri",
         "Özgün işler"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "garage sale"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "garage sale"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -527,8 +657,14 @@
       "slug": "hoi-christmas-market",
       "description": "Yılbaşı alışverişini kalabalık AVM'ler yerine, sürdürülebilir ve hikâyesi olan parçalardan yapmak istersen, seni Christmas Market'e bekliyoruz.",
       "dates": [
-        {"startDate": "2025-12-13T14:00:00", "endDate": "2025-12-13T21:00:00"},
-        {"startDate": "2025-12-14T14:00:00", "endDate": "2025-12-14T21:00:00"}
+        {
+          "startDate": "2025-12-13T14:00:00",
+          "endDate": "2025-12-13T21:00:00"
+        },
+        {
+          "startDate": "2025-12-14T14:00:00",
+          "endDate": "2025-12-14T21:00:00"
+        }
       ],
       "location": {
         "name": "Hoi Coffee & Plants",
@@ -552,7 +688,12 @@
         "Huzurlu atmosfer",
         "Bitki çeşitleri"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "bitki"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -564,7 +705,10 @@
       "slug": "balcon-vintage-tasarim-pazari",
       "description": "Karşıyaka'da dolaplardan çıkan en güzel parçalar, el yapımı tasarımlar ve kahve kokusu aynı gün buluşuyor. 💿👗\n Renkli ve özgün tasarımlar, takılar, 'tek kalmış ama tam benim' dedirten vintage parçalar…\nHem kendine hem sevdiklerine yıl sonu küçük sürprizler yapmak istersen, uğramadan geçme.",
       "dates": [
-        {"startDate": "2025-12-20T14:00:00", "endDate": "2025-12-20T21:00:00"}
+        {
+          "startDate": "2025-12-20T14:00:00",
+          "endDate": "2025-12-20T21:00:00"
+        }
       ],
       "location": {
         "name": "Le Balcon Cafe",
@@ -586,7 +730,11 @@
         "Vintage ve tasarım ürünleri",
         "Özgün işler"
       ],
-      "categories": ["vintage", "tasarim", "cafe"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -598,7 +746,10 @@
       "slug": "la-loba-christmas-market",
       "description": "Yılbaşında tekrar Laloba'da bir araya geliyoruz🥳\nMahalle buluşması gibi hissettiren o sıcak ortamı bu kez Christmas Market'le geri getiriyoruz. 🎄",
       "dates": [
-        {"startDate": "2025-12-21T14:00:00", "endDate": "2025-12-21T21:00:00"}
+        {
+          "startDate": "2025-12-21T14:00:00",
+          "endDate": "2025-12-21T21:00:00"
+        }
       ],
       "location": {
         "name": "La Loba Coffee Collective",
@@ -620,7 +771,11 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["vintage", "tasarim", "coffee"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -632,8 +787,14 @@
       "slug": "haus-pera-karatas-christmas-bazaar",
       "description": "Christmas ruhu bu yıl Karataş'ta bizimle! 🎄✨\nHaus Pera Coffee – Karataş Şubesinde iki gün boyunca; Christmas Bazaar, tasarım ürünler, ikinci el güzellikler ve mis gibi kahve eşliğinde bol sohbet seni bekliyor.\n",
       "dates": [
-        {"startDate": "2025-12-27T13:00:00", "endDate": "2025-12-27T20:00:00"},
-        {"startDate": "2025-12-28T13:00:00", "endDate": "2025-12-28T20:00:00"}
+        {
+          "startDate": "2025-12-27T13:00:00",
+          "endDate": "2025-12-27T20:00:00"
+        },
+        {
+          "startDate": "2025-12-28T13:00:00",
+          "endDate": "2025-12-28T20:00:00"
+        }
       ],
       "location": {
         "name": "Haus Pera Coffee Karataş",
@@ -655,7 +816,11 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["vintage", "tasarim", "coffee"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -667,8 +832,14 @@
       "slug": "haus-pera-buca-christmas-bazaar",
       "description": "Christmas ruhu bu yıl Buca'da bizimle! 🎄✨\nHaus Pera Coffee – Buca Şubesinde iki gün boyunca; Christmas Bazaar, tasarım ürünler, ikinci el güzellikler ve mis gibi kahve eşliğinde bol sohbet seni bekliyor.\n",
       "dates": [
-        {"startDate": "2025-12-27T14:00:00", "endDate": "2025-12-27T21:00:00"},
-        {"startDate": "2025-12-28T14:00:00", "endDate": "2025-12-28T21:00:00"}
+        {
+          "startDate": "2025-12-27T14:00:00",
+          "endDate": "2025-12-27T21:00:00"
+        },
+        {
+          "startDate": "2025-12-28T14:00:00",
+          "endDate": "2025-12-28T21:00:00"
+        }
       ],
       "location": {
         "name": "Haus Pera Coffee Buca",
@@ -690,7 +861,11 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["vintage", "tasarim", "coffee"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -702,7 +877,10 @@
       "slug": "kirkmerdiven-depo-indirimi",
       "description": "Garaj İndirimi ile yeni yılın ilk etkinliğinde buluşuyoruz! ✨\nKırkmerdiven’in o kendine has tarihi dokusu, taş sokakların sakinliği ve mahalle ruhu eşliğinde; yeni yıla ferah bir başlangıç yapıyoruz. Bu kez sadece alışveriş değil, biraz da “yenilenme” hissi var: fazlalıkları elden çıkar, yeni bir hikâyeye yer aç. \uD83E\uDDE1",
       "dates": [
-        {"startDate": "2026-01-18T14:00:00", "endDate": "2026-01-18T21:00:00"}
+        {
+          "startDate": "2026-01-18T14:00:00",
+          "endDate": "2026-01-18T21:00:00"
+        }
       ],
       "location": {
         "name": "Kırkmerdiven",
@@ -723,7 +901,11 @@
         "evde duruyor ama kullanılmayanlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["depo","yeniden kullanım", "coffee"],
+      "categories": [
+        "depo",
+        "yeniden kullanım",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -735,7 +917,10 @@
       "slug": "la-loba-yerel-tasarimcilar",
       "description": "Geçen yıl ilkini yaptığımız bu buluşmanın ikincisinde de yine aynı heyecanla La Loba’da bir araya geliyoruz. \uD83E\uDD0D\nLa Loba Coffee Collective’in o kendine has mimarisi, sokaktan içeri girer girmez hissettiren sıcaklığı ve “kolektif” ruhu; bu etkinliği sadece bir pazar olmaktan çıkarıp tanışma, bağ kurma ve birlikte üretimi destekleme alanına dönüştürüyor.\n\nBu etkinlikte raflarda “hazır ürün” değil; emeğin izi olan işler yer alacak. Yerel üreticiler ve tasarımcılar… Kısacası “üreten ve ürettiğini satan” insanların hikâyeleri. Gezmek, keşfetmek, sohbet etmek ve bir parçayı seçerken onun arkasındaki kişiyi de tanımak isteyen herkesi bekliyoruz. ✨",
       "dates": [
-        {"startDate": "2026-01-25T15:00:00", "endDate": "2026-01-25T22:00:00"}
+        {
+          "startDate": "2026-01-25T15:00:00",
+          "endDate": "2026-01-25T22:00:00"
+        }
       ],
       "location": {
         "name": "La Loba Coffee Collective",
@@ -755,7 +940,10 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "coffee"],
+      "categories": [
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -767,7 +955,10 @@
       "slug": "ru-vintage-ve-tasarim-pazari",
       "description": "Urla’da ilk kez buluşuyoruz ! ✨ Müstesna Garaj’ın “pazar” dediği şey; tezgâhtan ibaret değil, hikâyelerin, iyi parçaların ve gerçek sohbetlerin bir araya geldiği bir alan. Bu kez rotamız Urla: sokaklarıyla, enerjisiyle, ruhuyla tam da bize yakışan bir lokasyon .“Urla’nın kahve durağı RU Coffee House’un #BeBrewBake ruhunda; kahvemizi alıp hikâyelere karışıyoruz.”\n Vintage parçalar, seçilmiş tasarımlar, yerel üretimin emeği… Her şey aynı yerde: keşfetmek için, ilham almak için, “bunu ben buldum” diye sevinmek için. Sürdürülebilir seçimleri çoğaltırken, aynı anda şehirle ve birbirimizle bağ kuruyoruz.",
       "dates": [
-        {"startDate": "2026-02-08T13:00:00", "endDate": "2026-02-08T20:00:00"}
+        {
+          "startDate": "2026-02-08T13:00:00",
+          "endDate": "2026-02-08T20:00:00"
+        }
       ],
       "location": {
         "name": "Ru Coffee House",
@@ -789,7 +980,11 @@
         "İkinci el hazineler",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "vintage", "coffee"],
+      "categories": [
+        "tasarim",
+        "vintage",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -801,7 +996,10 @@
       "slug": "dijital-pazarlama-temel-egitimi",
       "description": "Üretiyoruz, stand açıyoruz, emek veriyoruz… ama dijital taraf bazen “nereden başlayacağım?” diye düğüm olabiliyor.\n\n7 Şubat’ta La Loba Coffee Collective’te Müstesna Garaj olarak, “Üreticiler İçin Başlangıç Düzeyi Dijital Pazarlama Eğitimi” serimizin ilk buluşmasını yüz yüze başlatıyoruz.\nInstagram’ı, içerik fikrini, görünür olmayı; basit bir planla sürdürülebilir hâle getireceğiz. Jargon yok, gerçekten işine yarayan, uygulanabilir bir başlangıç var.",
       "dates": [
-        {"startDate": "2026-02-07T12:00:00", "endDate": "2026-02-07T15:00:00"}
+        {
+          "startDate": "2026-02-07T12:00:00",
+          "endDate": "2026-02-07T15:00:00"
+        }
       ],
       "location": {
         "name": "La Loba Coffee Collective",
@@ -822,7 +1020,12 @@
         "Dijital pazarlama",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "pazarlama", "eğitim", "kahve"],
+      "categories": [
+        "tasarim",
+        "pazarlama",
+        "eğitim",
+        "kahve"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -834,8 +1037,14 @@
       "slug": "ask-ve-yalnizlik-pazari",
       "description": "Bazı mekânlar vardır; duvarı sadece duvar değildir, hafızadır. Haus Pera Buca’nın geçmişi de öyle… Eski bir zeytinyağı sıkım fabrikası; yılların emeğini, kokusunu, ritmini taşıyor. Biz de Müstesna Garaj olarak o tarihin içine iki günlüğüne bir pazar değil, bir buluşma alanı kuruyoruz. \uD83C\uDF3F\n\nAşk ve Yalnızlık Pazarında mesele sadece alışveriş değil: tanışmak, sohbet etmek, birbirini “görmek”, aynı kalabalığın içinde bile bağ kurmak. İkinci elin hikâyesiyle, tasarımın emeğiyle, ileri dönüşümün umut veren dönüşümüyle… Her stand biraz “ben buradayım” diyor; her ziyaretçi o hikâyenin ortağı oluyor.",
       "dates": [
-        {"startDate": "2026-02-14T14:00:00", "endDate": "2026-02-14T21:00:00"},
-        {"startDate": "2026-02-14T15:00:00", "endDate": "2026-02-15T21:00:00"}
+        {
+          "startDate": "2026-02-14T14:00:00",
+          "endDate": "2026-02-14T21:00:00"
+        },
+        {
+          "startDate": "2026-02-14T15:00:00",
+          "endDate": "2026-02-15T21:00:00"
+        }
       ],
       "location": {
         "name": "Haus Pera Coffee Buca",
@@ -857,7 +1066,11 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["vintage", "tasarim", "coffee"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -868,8 +1081,11 @@
       "title": "Depo İndirimi",
       "slug": "hoi-garaj-satisi-subat-2026",
       "description": "Vintage, ikinci el, aksesuar ve takı…\nHepsi aynı heyecanla, aynı etikette buluşuyor.\nHem bütçeye iyi gelen, hem de “modaya değil, hikâyeye yatırım” dediğimiz o tanıdık Müstesna hissiyle. \uD83C\uDF3F",
-      "dates":  [
-        {"startDate": "2026-02-22T13:00:00", "endDate": "2026-02-22T21:00:00"}
+      "dates": [
+        {
+          "startDate": "2026-02-22T13:00:00",
+          "endDate": "2026-02-22T21:00:00"
+        }
       ],
       "location": {
         "name": "Hoi Coffee & Plants",
@@ -893,7 +1109,12 @@
         "Huzurlu atmosfer",
         "Bitki çeşitleri"
       ],
-      "categories": ["vintage", "tasarim", "cafe", "bitki"],
+      "categories": [
+        "vintage",
+        "tasarim",
+        "cafe",
+        "bitki"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -905,7 +1126,10 @@
       "slug": "pick-vintage-ve-tasarim-pazari",
       "description": "28 Şubat’ta yine bir araya geliyoruz \uD83C\uDF3F\uD83E\uDDE1\nMüstesna Garaj olarak Pick Coffee House’ta kurduğumuz bu buluşmada iki şeyi aynı anda kutluyoruz:\n♻\uFE0F İkinci elin geleceğe iyi gelen, nazik tarafını…\n✨ Yerel tasarımcıların üretim cesaretini, yaratıcılığını ve “burada, şimdi” kurduğumuz bağı…\n\nBir parça seçerken sadece “güzel”i değil, hikâyeyi de arıyoruz:\nKimi parça yılların izini taşıyor, kimi parça daha yeni doğmuş bir fikrin ürünü. Ortak noktaları aynı: özen, emek ve sürdürülebilir bir bakış.\n",
       "dates": [
-        {"startDate": "2026-02-28T14:00:00", "endDate": "2026-02-28T21:00:00"}
+        {
+          "startDate": "2026-02-28T14:00:00",
+          "endDate": "2026-02-28T21:00:00"
+        }
       ],
       "location": {
         "name": "Pick. Coffee House",
@@ -927,7 +1151,11 @@
         "İkinci el hazineler",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "vintage", "coffee"],
+      "categories": [
+        "tasarim",
+        "vintage",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -939,7 +1167,10 @@
       "slug": "la-loba-mor-panayiri",
       "description": "\uD83D\uDC9C\nBir araya gelince çoğalan, temas edince güçlenen çok\nönemli bir şey var: DAYANIŞMA ☀\uFE0F\n7 Mart’ta tam da bunun için buluşuyoruz. Bu panayır\nbir “etkinlik” olmanın ötesinde; kadınların emeğini,\nsesini, varlığını görünür kılan, birbirine omuz veren bir\ntopluluk alanı. Ve bu kez temamız belli: Mor. (Mor giy,\ndayanışmaya gel! \uD83D\uDC9C)",
       "dates": [
-        {"startDate": "2026-03-07T15:00:00", "endDate": "2026-03-07T22:00:00"}
+        {
+          "startDate": "2026-03-07T15:00:00",
+          "endDate": "2026-03-07T22:00:00"
+        }
       ],
       "location": {
         "name": "La Loba Coffee Collective",
@@ -961,19 +1192,27 @@
         "Kulağınıza iyi gelecek müzik",
         "Yeni sahiplerini arayan ikinci el hazineler"
       ],
-      "categories": ["tasarim", "coffee", "panayir", "dayanışma"],
+      "categories": [
+        "tasarim",
+        "coffee",
+        "panayir",
+        "dayanışma"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
       }
-""    },
+    },
     {
       "id": 29,
       "title": "Garaj İndirimi",
       "slug": "pick-garaj-indirimi",
       "description": "Dolabına “iyi ki” dedirtecek parçalarla buluşuyoruz: vintage, ikinci el, takı, aksesuar ve yerel tasarımcılar…\nHer Şey 100₺ ✨\n\nBu gün biraz “gezine gezine” keşfetme günü: rafların arasında kaybol, bir kahve iç, yeni bir hikâyeye denk gel.",
       "dates": [
-        {"startDate": "2026-03-14T14:00:00", "endDate": "2026-03-14T20:00:00"}
+        {
+          "startDate": "2026-03-14T14:00:00",
+          "endDate": "2026-03-14T20:00:00"
+        }
       ],
       "location": {
         "name": "Pick. Coffee House",
@@ -995,7 +1234,11 @@
         "İkinci el hazineler",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "vintage", "coffee"],
+      "categories": [
+        "tasarim",
+        "vintage",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
@@ -1007,7 +1250,10 @@
       "slug": "le-balcon-garaj-indirimi",
       "description": "Dolaplarda yeni bir yer açmanın, uzun zamandır beklenen parçalarla karşılaşmanın ve güzel şeyleri uygun fiyatlarla bulmanın tam zamanı.\n\n15 Mart’ta Le Balcon’da \nvintage, ikinci el, takı, aksesuar ve yerel tasarım ürünleriyle dopdolu bir gün bizi bekliyor.\nÜstelik her şey 100 TL.\n\nBiraz bakınmak, biraz keşfetmek, biraz da içinize sinen parçalarla eve dönmek isterseniz hepinizi bekleriz.\nSevdiğiniz bir arkadaşınızı alın, gelin; birlikte hem uygun fiyatlı hem de keyifli bir gün geçirelim. \uD83E\uDDE1",
       "dates": [
-        {"startDate": "2026-03-15T14:00:00", "endDate": "2026-03-15T20:00:00"}
+        {
+          "startDate": "2026-03-15T14:00:00",
+          "endDate": "2026-03-15T20:00:00"
+        }
       ],
       "location": {
         "name": "Le Balcon Cafe",
@@ -1027,7 +1273,10 @@
         "El emeği tasarımlar",
         "Sıcak atmosfer, tanışmalar ve sohbetler"
       ],
-      "categories": ["tasarim", "coffee"],
+      "categories": [
+        "tasarim",
+        "coffee"
+      ],
       "organizer": {
         "name": "MüstesnaGaraj",
         "contact": "info@mustesnagaraj.com"
