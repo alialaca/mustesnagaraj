@@ -1266,7 +1266,7 @@
       "image": "/images/le-balcon-garaj-indirimi.png",
       "applicationOpen": true,
       "totalTables": null,
-      "availableTables": 0,
+      "availableTables": null,
       "tablePrice": null,
       "googleFormUrl": "https://forms.gle/Xt9uC3jX51f4bq73A",
       "features": [
